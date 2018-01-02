@@ -1,22 +1,18 @@
 package ms
 
+import (
+	"github.com/matthewmueller/joy/macro"
+	"github.com/matthewmueller/joy/dom/dom"
+)
 
-import "github.com/matthewmueller/joy/macro"
-
-// MSRangeCollection struct
-// js:"MSRangeCollection,omit"
 type MSRangeCollection struct {
 }
 
-// Item fn
-// js:"item"
-func (*MSRangeCollection) Item(index uint) (r *Range) {
+func (*MSRangeCollection) Item(index uint) (r *dom.Range) {
 	macro.Rewrite("$_.item($1)", index)
 	return r
 }
 
-// Length prop
-// js:"length"
 func (*MSRangeCollection) Length() (length uint) {
 	macro.Rewrite("$_.length")
 	return length

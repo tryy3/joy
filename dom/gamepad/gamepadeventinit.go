@@ -1,13 +1,9 @@
 package gamepad
 
-
-import (
-	"github.com/matthewmueller/joy/dom/eventinit"
-	"github.com/matthewmueller/joy/dom/gamepad"
-)
+import "github.com/matthewmueller/joy/dom/event"
 
 type GamepadEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	gamepad *gamepad.Gamepad
+	gamepad	*Gamepad
 }

@@ -1,13 +1,9 @@
 package mediastreams
 
-
-import (
-	"github.com/matthewmueller/joy/dom/eventinit"
-	"github.com/matthewmueller/joy/dom/window"
-)
+import "github.com/matthewmueller/joy/dom/event"
 
 type MediaStreamEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	stream *window.MediaStream
+	stream	*MediaStream
 }

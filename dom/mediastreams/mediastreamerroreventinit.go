@@ -1,13 +1,9 @@
 package mediastreams
 
-
-import (
-	"github.com/matthewmueller/joy/dom/eventinit"
-	"github.com/matthewmueller/joy/dom/mediastreamerror"
-)
+import "github.com/matthewmueller/joy/dom/event"
 
 type MediaStreamErrorEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	err *mediastreamerror.MediaStreamError
+	err	*MediaStreamError
 }

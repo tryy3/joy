@@ -1,11 +1,10 @@
 package ms
 
-
-import "github.com/matthewmueller/joy/dom/rtcstats"
+import "github.com/matthewmueller/joy/dom/webrtc"
 
 type MSLocalClientEventBase struct {
-	*rtcstats.RTCStats
+	*webrtc.RTCStats
 
-	networkBandwidthLowEventRatio   *float32
-	networkReceiveQualityEventRatio *float32
+	networkBandwidthLowEventRatio	*float32
+	networkReceiveQualityEventRatio	*float32
 }

@@ -1,13 +1,12 @@
 package device
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
+import "github.com/matthewmueller/joy/dom/event"
 
 type DeviceOrientationEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	absolute *bool
-	alpha    *float32
-	beta     *float32
-	gamma    *float32
+	absolute	*bool
+	alpha		*float32
+	beta		*float32
+	gamma		*float32
 }

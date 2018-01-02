@@ -1,17 +1,12 @@
 package device
 
-
-import (
-	"github.com/matthewmueller/joy/dom/deviceaccelerationdict"
-	"github.com/matthewmueller/joy/dom/devicerotationratedict"
-	"github.com/matthewmueller/joy/dom/eventinit"
-)
+import "github.com/matthewmueller/joy/dom/event"
 
 type DeviceMotionEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	acceleration                 *deviceaccelerationdict.DeviceAccelerationDict
-	accelerationIncludingGravity *deviceaccelerationdict.DeviceAccelerationDict
-	interval                     *float32
-	rotationRate                 *devicerotationratedict.DeviceRotationRateDict
+	acceleration			*DeviceAccelerationDict
+	accelerationIncludingGravity	*DeviceAccelerationDict
+	interval			*float32
+	rotationRate			*DeviceRotationRateDict
 }

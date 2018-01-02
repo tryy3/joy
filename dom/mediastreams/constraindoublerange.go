@@ -1,11 +1,8 @@
 package mediastreams
 
-
-import "github.com/matthewmueller/joy/dom/doublerange"
-
 type ConstrainDoubleRange struct {
-	*doublerange.DoubleRange
+	*DoubleRange
 
-	exact *float32
-	ideal *float32
+	exact	*float32
+	ideal	*float32
 }

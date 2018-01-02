@@ -1,11 +1,10 @@
 package css
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
+import "github.com/matthewmueller/joy/dom/event"
 
 type TransitionEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	elapsedTime  *float32
-	propertyName *string
+	elapsedTime	*float32
+	propertyName	*string
 }

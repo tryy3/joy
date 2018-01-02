@@ -1,11 +1,8 @@
 package webrtc
 
-
-import "github.com/matthewmueller/joy/dom/rtcsrtpkeyparam"
-
 type RTCSrtpSdesParameters struct {
-	cryptoSuite   *string
-	keyParams     *[]*rtcsrtpkeyparam.RTCSrtpKeyParam
-	sessionParams *[]string
-	tag           *uint8
+	cryptoSuite	*string
+	keyParams	*[]*RTCSrtpKeyParam
+	sessionParams	*[]string
+	tag		*uint8
 }

@@ -1,10 +1,9 @@
 package window
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
+import "github.com/matthewmueller/joy/dom/event"
 
 type PopStateEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	state *interface{}
+	state	*interface{}
 }

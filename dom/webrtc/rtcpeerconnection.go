@@ -1,188 +1,78 @@
 package webrtc
 
-
 import (
-	"github.com/matthewmueller/joy/dom/domerror"
-	"github.com/matthewmueller/joy/dom/mediastreamevent"
-	"github.com/matthewmueller/joy/dom/rtcconfiguration"
-	"github.com/matthewmueller/joy/dom/rtcicecandidate"
-	"github.com/matthewmueller/joy/dom/rtciceconnectionstate"
-	"github.com/matthewmueller/joy/dom/rtcicegatheringstate"
-	"github.com/matthewmueller/joy/dom/rtcofferoptions"
-	"github.com/matthewmueller/joy/dom/rtcpeerconnectioniceevent"
-	"github.com/matthewmueller/joy/dom/rtcsessiondescription"
-	"github.com/matthewmueller/joy/dom/rtcsignalingstate"
-	"github.com/matthewmueller/joy/dom/rtcstatsreport"
-	"github.com/matthewmueller/joy/dom/window"
+	"github.com/matthewmueller/joy/dom/event"
+	"github.com/matthewmueller/joy/dom/dom"
+	"github.com/matthewmueller/joy/dom/mediastreams"
 )
 
-// RTCPeerConnection interface
-// js:"RTCPeerConnection"
 type RTCPeerConnection interface {
-	window.EventTarget
+	event.
+		EventTarget
 
-	// AddIceCandidate
-	// js:"addIceCandidate"
-	// jsrewrite:"await $_.addIceCandidate($1, $2, $3)"
-	AddIceCandidate(candidate *rtcicecandidate.RTCIceCandidate, successCallback *func(), failureCallback *func(err *domerror.DOMError))
+	AddIceCandidate(candidate *RTCIceCandidate, successCallback *func(), failureCallback *func(err *dom.DOMError))
 
-	// AddStream
-	// js:"addStream"
-	// jsrewrite:"$_.addStream($1)"
-	AddStream(stream *window.MediaStream)
+	AddStream(stream *mediastreams.MediaStream)
 
-	// Close
-	// js:"close"
-	// jsrewrite:"$_.close()"
 	Close()
 
-	// CreateAnswer
-	// js:"createAnswer"
-	// jsrewrite:"await $_.createAnswer($1, $2)"
-	CreateAnswer(successCallback *func(sdp *rtcsessiondescription.RTCSessionDescription), failureCallback *func(err *domerror.DOMError)) (r *rtcsessiondescription.RTCSessionDescription)
+	CreateAnswer(successCallback *func(sdp *RTCSessionDescription), failureCallback *func(err *dom.DOMError)) (r *RTCSessionDescription)
 
-	// CreateOffer
-	// js:"createOffer"
-	// jsrewrite:"await $_.createOffer($1, $2, $3)"
-	CreateOffer(successCallback *func(sdp *rtcsessiondescription.RTCSessionDescription), failureCallback *func(err *domerror.DOMError), options *rtcofferoptions.RTCOfferOptions) (r *rtcsessiondescription.RTCSessionDescription)
+	CreateOffer(successCallback *func(sdp *RTCSessionDescription), failureCallback *func(err *dom.DOMError), options *RTCOfferOptions) (r *RTCSessionDescription)
 
-	// GetConfiguration
-	// js:"getConfiguration"
-	// jsrewrite:"$_.getConfiguration()"
-	GetConfiguration() (r *rtcconfiguration.RTCConfiguration)
+	GetConfiguration() (r *RTCConfiguration)
 
-	// GetLocalStreams
-	// js:"getLocalStreams"
-	// jsrewrite:"$_.getLocalStreams()"
-	GetLocalStreams() (w []*window.MediaStream)
+	GetLocalStreams() (w []*mediastreams.MediaStream)
 
-	// GetRemoteStreams
-	// js:"getRemoteStreams"
-	// jsrewrite:"$_.getRemoteStreams()"
-	GetRemoteStreams() (w []*window.MediaStream)
+	GetRemoteStreams() (w []*mediastreams.MediaStream)
 
-	// GetStats
-	// js:"getStats"
-	// jsrewrite:"await $_.getStats($1, $2, $3)"
-	GetStats(selector *window.MediaStreamTrack, successCallback *func(report *rtcstatsreport.RTCStatsReport), failureCallback *func(err *domerror.DOMError)) (r *rtcstatsreport.RTCStatsReport)
+	GetStats(selector *mediastreams.MediaStreamTrack, successCallback *func(report *RTCStatsReport), failureCallback *func(err *dom.DOMError)) (r *RTCStatsReport)
 
-	// GetStreamByID
-	// js:"getStreamById"
-	// jsrewrite:"$_.getStreamById($1)"
-	GetStreamByID(streamId string) (w *window.MediaStream)
+	GetStreamByID(streamId string) (w *mediastreams.MediaStream)
 
-	// RemoveStream
-	// js:"removeStream"
-	// jsrewrite:"$_.removeStream($1)"
-	RemoveStream(stream *window.MediaStream)
+	RemoveStream(stream *mediastreams.MediaStream)
 
-	// SetLocalDescription
-	// js:"setLocalDescription"
-	// jsrewrite:"await $_.setLocalDescription($1, $2, $3)"
-	SetLocalDescription(description *rtcsessiondescription.RTCSessionDescription, successCallback *func(), failureCallback *func(err *domerror.DOMError))
+	SetLocalDescription(description *RTCSessionDescription, successCallback *func(), failureCallback *func(err *dom.DOMError))
 
-	// SetRemoteDescription
-	// js:"setRemoteDescription"
-	// jsrewrite:"await $_.setRemoteDescription($1, $2, $3)"
-	SetRemoteDescription(description *rtcsessiondescription.RTCSessionDescription, successCallback *func(), failureCallback *func(err *domerror.DOMError))
+	SetRemoteDescription(description *RTCSessionDescription, successCallback *func(), failureCallback *func(err *dom.DOMError))
 
-	// CanTrickleIceCandidates prop
-	// js:"canTrickleIceCandidates"
-	// jsrewrite:"$_.canTrickleIceCandidates"
 	CanTrickleIceCandidates() (canTrickleIceCandidates bool)
 
-	// IceConnectionState prop
-	// js:"iceConnectionState"
-	// jsrewrite:"$_.iceConnectionState"
-	IceConnectionState() (iceConnectionState *rtciceconnectionstate.RTCIceConnectionState)
+	IceConnectionState() (iceConnectionState *RTCIceConnectionState)
 
-	// IceGatheringState prop
-	// js:"iceGatheringState"
-	// jsrewrite:"$_.iceGatheringState"
-	IceGatheringState() (iceGatheringState *rtcicegatheringstate.RTCIceGatheringState)
+	IceGatheringState() (iceGatheringState *RTCIceGatheringState)
 
-	// LocalDescription prop
-	// js:"localDescription"
-	// jsrewrite:"$_.localDescription"
-	LocalDescription() (localDescription *rtcsessiondescription.RTCSessionDescription)
+	LocalDescription() (localDescription *RTCSessionDescription)
 
-	// Onaddstream prop
-	// js:"onaddstream"
-	// jsrewrite:"$_.onaddstream"
-	Onaddstream() (onaddstream func(*mediastreamevent.MediaStreamEvent))
+	Onaddstream() (onaddstream func(*mediastreams.MediaStreamEvent))
 
-	// SetOnaddstream prop
-	// js:"onaddstream"
-	// jsrewrite:"$_.onaddstream = $1"
-	SetOnaddstream(onaddstream func(*mediastreamevent.MediaStreamEvent))
+	SetOnaddstream(onaddstream func(*mediastreams.MediaStreamEvent))
 
-	// Onicecandidate prop
-	// js:"onicecandidate"
-	// jsrewrite:"$_.onicecandidate"
-	Onicecandidate() (onicecandidate func(*rtcpeerconnectioniceevent.RTCPeerConnectionIceEvent))
+	Onicecandidate() (onicecandidate func(*RTCPeerConnectionIceEvent))
 
-	// SetOnicecandidate prop
-	// js:"onicecandidate"
-	// jsrewrite:"$_.onicecandidate = $1"
-	SetOnicecandidate(onicecandidate func(*rtcpeerconnectioniceevent.RTCPeerConnectionIceEvent))
+	SetOnicecandidate(onicecandidate func(*RTCPeerConnectionIceEvent))
 
-	// Oniceconnectionstatechange prop
-	// js:"oniceconnectionstatechange"
-	// jsrewrite:"$_.oniceconnectionstatechange"
-	Oniceconnectionstatechange() (oniceconnectionstatechange func(window.Event))
+	Oniceconnectionstatechange() (oniceconnectionstatechange func(event.Event))
 
-	// SetOniceconnectionstatechange prop
-	// js:"oniceconnectionstatechange"
-	// jsrewrite:"$_.oniceconnectionstatechange = $1"
-	SetOniceconnectionstatechange(oniceconnectionstatechange func(window.Event))
+	SetOniceconnectionstatechange(oniceconnectionstatechange func(event.Event))
 
-	// Onicegatheringstatechange prop
-	// js:"onicegatheringstatechange"
-	// jsrewrite:"$_.onicegatheringstatechange"
-	Onicegatheringstatechange() (onicegatheringstatechange func(window.Event))
+	Onicegatheringstatechange() (onicegatheringstatechange func(event.Event))
 
-	// SetOnicegatheringstatechange prop
-	// js:"onicegatheringstatechange"
-	// jsrewrite:"$_.onicegatheringstatechange = $1"
-	SetOnicegatheringstatechange(onicegatheringstatechange func(window.Event))
+	SetOnicegatheringstatechange(onicegatheringstatechange func(event.Event))
 
-	// Onnegotiationneeded prop
-	// js:"onnegotiationneeded"
-	// jsrewrite:"$_.onnegotiationneeded"
-	Onnegotiationneeded() (onnegotiationneeded func(window.Event))
+	Onnegotiationneeded() (onnegotiationneeded func(event.Event))
 
-	// SetOnnegotiationneeded prop
-	// js:"onnegotiationneeded"
-	// jsrewrite:"$_.onnegotiationneeded = $1"
-	SetOnnegotiationneeded(onnegotiationneeded func(window.Event))
+	SetOnnegotiationneeded(onnegotiationneeded func(event.Event))
 
-	// Onremovestream prop
-	// js:"onremovestream"
-	// jsrewrite:"$_.onremovestream"
-	Onremovestream() (onremovestream func(*mediastreamevent.MediaStreamEvent))
+	Onremovestream() (onremovestream func(*mediastreams.MediaStreamEvent))
 
-	// SetOnremovestream prop
-	// js:"onremovestream"
-	// jsrewrite:"$_.onremovestream = $1"
-	SetOnremovestream(onremovestream func(*mediastreamevent.MediaStreamEvent))
+	SetOnremovestream(onremovestream func(*mediastreams.MediaStreamEvent))
 
-	// Onsignalingstatechange prop
-	// js:"onsignalingstatechange"
-	// jsrewrite:"$_.onsignalingstatechange"
-	Onsignalingstatechange() (onsignalingstatechange func(window.Event))
+	Onsignalingstatechange() (onsignalingstatechange func(event.Event))
 
-	// SetOnsignalingstatechange prop
-	// js:"onsignalingstatechange"
-	// jsrewrite:"$_.onsignalingstatechange = $1"
-	SetOnsignalingstatechange(onsignalingstatechange func(window.Event))
+	SetOnsignalingstatechange(onsignalingstatechange func(event.Event))
 
-	// RemoteDescription prop
-	// js:"remoteDescription"
-	// jsrewrite:"$_.remoteDescription"
-	RemoteDescription() (remoteDescription *rtcsessiondescription.RTCSessionDescription)
+	RemoteDescription() (remoteDescription *RTCSessionDescription)
 
-	// SignalingState prop
-	// js:"signalingState"
-	// jsrewrite:"$_.signalingState"
-	SignalingState() (signalingState *rtcsignalingstate.RTCSignalingState)
+	SignalingState() (signalingState *RTCSignalingState)
 }

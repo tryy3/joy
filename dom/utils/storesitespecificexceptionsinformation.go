@@ -1,10 +1,7 @@
 package utils
 
-
-import "github.com/matthewmueller/joy/dom/storeexceptionsinformation"
-
 type StoreSiteSpecificExceptionsInformation struct {
-	*storeexceptionsinformation.StoreExceptionsInformation
+	*StoreExceptionsInformation
 
-	arrayOfDomainStrings *[]string
+	arrayOfDomainStrings	*[]string
 }

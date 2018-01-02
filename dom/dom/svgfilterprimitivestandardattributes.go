@@ -1,37 +1,13 @@
 package dom
 
-
-import (
-	"github.com/matthewmueller/joy/dom/svganimatedlength"
-	"github.com/matthewmueller/joy/dom/svganimatedstring"
-)
-
-// SVGFilterPrimitiveStandardAttributes interface
-// js:"SVGFilterPrimitiveStandardAttributes"
 type SVGFilterPrimitiveStandardAttributes interface {
+	Height() (height *SVGAnimatedLength)
 
-	// Height prop
-	// js:"height"
-	// jsrewrite:"$_.height"
-	Height() (height *svganimatedlength.SVGAnimatedLength)
+	Result() (result *SVGAnimatedString)
 
-	// Result prop
-	// js:"result"
-	// jsrewrite:"$_.result"
-	Result() (result *svganimatedstring.SVGAnimatedString)
+	Width() (width *SVGAnimatedLength)
 
-	// Width prop
-	// js:"width"
-	// jsrewrite:"$_.width"
-	Width() (width *svganimatedlength.SVGAnimatedLength)
+	X() (x *SVGAnimatedLength)
 
-	// X prop
-	// js:"x"
-	// jsrewrite:"$_.x"
-	X() (x *svganimatedlength.SVGAnimatedLength)
-
-	// Y prop
-	// js:"y"
-	// jsrewrite:"$_.y"
-	Y() (y *svganimatedlength.SVGAnimatedLength)
+	Y() (y *SVGAnimatedLength)
 }

@@ -1,15 +1,10 @@
 package navigation
 
+import "github.com/matthewmueller/joy/dom/event"
 
-import "github.com/matthewmueller/joy/dom/window"
-
-// NavigationEvent interface
-// js:"NavigationEvent"
 type NavigationEvent interface {
-	window.Event
+	event.
+		Event
 
-	// URI prop
-	// js:"uri"
-	// jsrewrite:"$_.uri"
 	URI() (uri string)
 }

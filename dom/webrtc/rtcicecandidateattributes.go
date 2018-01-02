@@ -1,18 +1,12 @@
 package webrtc
 
-
-import (
-	"github.com/matthewmueller/joy/dom/rtcstats"
-	"github.com/matthewmueller/joy/dom/rtcstatsicecandidatetype"
-)
-
 type RTCIceCandidateAttributes struct {
-	*rtcstats.RTCStats
+	*RTCStats
 
-	addressSourceUrl *string
-	candidateType    *rtcstatsicecandidatetype.RTCStatsIceCandidateType
-	ipAddress        *string
-	portNumber       *int
-	priority         *int
-	transport        *string
+	addressSourceUrl	*string
+	candidateType		*RTCStatsIceCandidateType
+	ipAddress		*string
+	portNumber		*int
+	priority		*int
+	transport		*string
 }

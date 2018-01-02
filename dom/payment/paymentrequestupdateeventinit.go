@@ -1,8 +1,7 @@
 package payment
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
+import "github.com/matthewmueller/joy/dom/event"
 
 type PaymentRequestUpdateEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 }

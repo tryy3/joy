@@ -1,7 +1,6 @@
 package webrtc
 
-
 type RTCSsrcRange struct {
-	max *uint
-	min *uint
+	max	*uint
+	min	*uint
 }

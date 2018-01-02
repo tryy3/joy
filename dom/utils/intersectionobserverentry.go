@@ -1,61 +1,45 @@
 package utils
 
-
 import (
-	"github.com/matthewmueller/joy/dom/clientrect"
-	"github.com/matthewmueller/joy/dom/intersectionobserverentryinit"
-	"github.com/matthewmueller/joy/dom/window"
 	"github.com/matthewmueller/joy/macro"
+	"github.com/matthewmueller/joy/dom/intersectionobserver"
+	"github.com/matthewmueller/joy/dom/dom"
+	"github.com/matthewmueller/joy/dom/element"
 )
 
-// New fn
-func New(intersectionobserverentryinit *intersectionobserverentryinit.IntersectionObserverEntryInit) *IntersectionObserverEntry {
+func New(intersectionobserverentryinit *intersectionobserver.IntersectionObserverEntryInit) *IntersectionObserverEntry {
 	macro.Rewrite("new IntersectionObserverEntry($1)", intersectionobserverentryinit)
 	return &IntersectionObserverEntry{}
 }
 
-// IntersectionObserverEntry struct
-// js:"IntersectionObserverEntry,omit"
 type IntersectionObserverEntry struct {
 }
 
-// BoundingClientRect prop
-// js:"boundingClientRect"
-func (*IntersectionObserverEntry) BoundingClientRect() (boundingClientRect *clientrect.ClientRect) {
+func (*IntersectionObserverEntry) BoundingClientRect() (boundingClientRect *dom.ClientRect) {
 	macro.Rewrite("$_.boundingClientRect")
 	return boundingClientRect
 }
 
-// IntersectionRatio prop
-// js:"intersectionRatio"
 func (*IntersectionObserverEntry) IntersectionRatio() (intersectionRatio float32) {
 	macro.Rewrite("$_.intersectionRatio")
 	return intersectionRatio
 }
 
-// IntersectionRect prop
-// js:"intersectionRect"
-func (*IntersectionObserverEntry) IntersectionRect() (intersectionRect *clientrect.ClientRect) {
+func (*IntersectionObserverEntry) IntersectionRect() (intersectionRect *dom.ClientRect) {
 	macro.Rewrite("$_.intersectionRect")
 	return intersectionRect
 }
 
-// RootBounds prop
-// js:"rootBounds"
-func (*IntersectionObserverEntry) RootBounds() (rootBounds *clientrect.ClientRect) {
+func (*IntersectionObserverEntry) RootBounds() (rootBounds *dom.ClientRect) {
 	macro.Rewrite("$_.rootBounds")
 	return rootBounds
 }
 
-// Target prop
-// js:"target"
-func (*IntersectionObserverEntry) Target() (target window.Element) {
+func (*IntersectionObserverEntry) Target() (target element.Element) {
 	macro.Rewrite("$_.target")
 	return target
 }
 
-// Time prop
-// js:"time"
 func (*IntersectionObserverEntry) Time() (time int) {
 	macro.Rewrite("$_.time")
 	return time

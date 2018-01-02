@@ -1,10 +1,9 @@
 package mediastreams
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
+import "github.com/matthewmueller/joy/dom/event"
 
 type MediaStreamTrackEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	track *MediaStreamTrack
+	track	*MediaStreamTrack
 }

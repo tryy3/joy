@@ -1,19 +1,12 @@
 package ms
 
-
-import (
-	"github.com/matthewmueller/joy/dom/msdelay"
-	"github.com/matthewmueller/joy/dom/msjitter"
-	"github.com/matthewmueller/joy/dom/mspacketloss"
-	"github.com/matthewmueller/joy/dom/msutilization"
-	"github.com/matthewmueller/joy/dom/rtcstats"
-)
+import "github.com/matthewmueller/joy/dom/webrtc"
 
 type MSNetwork struct {
-	*rtcstats.RTCStats
+	*webrtc.RTCStats
 
-	delay       *msdelay.MSDelay
-	jitter      *msjitter.MSJitter
-	packetLoss  *mspacketloss.MSPacketLoss
-	utilization *msutilization.MSUtilization
+	delay		*MSDelay
+	jitter		*MSJitter
+	packetLoss	*MSPacketLoss
+	utilization	*MSUtilization
 }

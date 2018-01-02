@@ -1,22 +1,23 @@
 package event
 
+import "github.com/matthewmueller/joy/dom/ui"
 
 type EventModifierInit struct {
-	*UIEventInit
+	*ui.UIEventInit
 
-	altKey             *bool
-	ctrlKey            *bool
-	metaKey            *bool
-	modifierAltGraph   *bool
-	modifierCapsLock   *bool
-	modifierFn         *bool
-	modifierFnLock     *bool
-	modifierHyper      *bool
-	modifierNumLock    *bool
-	modifierOS         *bool
-	modifierScrollLock *bool
-	modifierSuper      *bool
-	modifierSymbol     *bool
-	modifierSymbolLock *bool
-	shiftKey           *bool
+	altKey			*bool
+	ctrlKey			*bool
+	metaKey			*bool
+	modifierAltGraph	*bool
+	modifierCapsLock	*bool
+	modifierFn		*bool
+	modifierFnLock		*bool
+	modifierHyper		*bool
+	modifierNumLock		*bool
+	modifierOS		*bool
+	modifierScrollLock	*bool
+	modifierSuper		*bool
+	modifierSymbol		*bool
+	modifierSymbolLock	*bool
+	shiftKey		*bool
 }

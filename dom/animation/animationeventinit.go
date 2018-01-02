@@ -1,11 +1,10 @@
 package animation
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
+import "github.com/matthewmueller/joy/dom/event"
 
 type AnimationEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	animationName *string
-	elapsedTime   *float32
+	animationName	*string
+	elapsedTime	*float32
 }

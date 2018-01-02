@@ -1,84 +1,35 @@
 package ms
 
+import "github.com/matthewmueller/joy/dom/event"
 
-import "github.com/matthewmueller/joy/dom/window"
-
-// MSBaseReader interface
-// js:"MSBaseReader"
 type MSBaseReader interface {
-
-	// Abort
-	// js:"abort"
-	// jsrewrite:"$_.abort()"
 	Abort()
 
-	// Onabort prop
-	// js:"onabort"
-	// jsrewrite:"$_.onabort"
-	Onabort() (onabort func(window.Event))
+	Onabort() (onabort func(event.Event))
 
-	// SetOnabort prop
-	// js:"onabort"
-	// jsrewrite:"$_.onabort = $1"
-	SetOnabort(onabort func(window.Event))
+	SetOnabort(onabort func(event.Event))
 
-	// Onerror prop
-	// js:"onerror"
-	// jsrewrite:"$_.onerror"
-	Onerror() (onerror func(window.Event))
+	Onerror() (onerror func(event.Event))
 
-	// SetOnerror prop
-	// js:"onerror"
-	// jsrewrite:"$_.onerror = $1"
-	SetOnerror(onerror func(window.Event))
+	SetOnerror(onerror func(event.Event))
 
-	// Onload prop
-	// js:"onload"
-	// jsrewrite:"$_.onload"
-	Onload() (onload func(window.Event))
+	Onload() (onload func(event.Event))
 
-	// SetOnload prop
-	// js:"onload"
-	// jsrewrite:"$_.onload = $1"
-	SetOnload(onload func(window.Event))
+	SetOnload(onload func(event.Event))
 
-	// Onloadend prop
-	// js:"onloadend"
-	// jsrewrite:"$_.onloadend"
-	Onloadend() (onloadend func(window.Event))
+	Onloadend() (onloadend func(event.Event))
 
-	// SetOnloadend prop
-	// js:"onloadend"
-	// jsrewrite:"$_.onloadend = $1"
-	SetOnloadend(onloadend func(window.Event))
+	SetOnloadend(onloadend func(event.Event))
 
-	// Onloadstart prop
-	// js:"onloadstart"
-	// jsrewrite:"$_.onloadstart"
-	Onloadstart() (onloadstart func(window.Event))
+	Onloadstart() (onloadstart func(event.Event))
 
-	// SetOnloadstart prop
-	// js:"onloadstart"
-	// jsrewrite:"$_.onloadstart = $1"
-	SetOnloadstart(onloadstart func(window.Event))
+	SetOnloadstart(onloadstart func(event.Event))
 
-	// Onprogress prop
-	// js:"onprogress"
-	// jsrewrite:"$_.onprogress"
-	Onprogress() (onprogress func(window.Event))
+	Onprogress() (onprogress func(event.Event))
 
-	// SetOnprogress prop
-	// js:"onprogress"
-	// jsrewrite:"$_.onprogress = $1"
-	SetOnprogress(onprogress func(window.Event))
+	SetOnprogress(onprogress func(event.Event))
 
-	// ReadyState prop
-	// js:"readyState"
-	// jsrewrite:"$_.readyState"
 	ReadyState() (readyState uint8)
 
-	// Result prop
-	// js:"result"
-	// jsrewrite:"$_.result"
 	Result() (result interface{})
 }

@@ -1,13 +1,16 @@
 package utils
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
+import (
+	"github.com/matthewmueller/joy/dom/event"
+	"github.com/matthewmueller/joy/dom/window"
+	"github.com/matthewmueller/joy/dom/channelmessage"
+)
 
 type MessageEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	data   *interface{}
-	origin *string
-	ports  *[]*MessagePort
-	source *Window
+	data	*interface{}
+	origin	*string
+	ports	*[]*channelmessage.MessagePort
+	source	*window.Window
 }

@@ -1,17 +1,9 @@
 package worker
 
+import "github.com/matthewmueller/joy/dom/event"
 
-// AbstractWorker interface
-// js:"AbstractWorker"
 type AbstractWorker interface {
+	Onerror() (onerror func(event.Event))
 
-	// Onerror prop
-	// js:"onerror"
-	// jsrewrite:"$_.onerror"
-	Onerror() (onerror func(Event))
-
-	// SetOnerror prop
-	// js:"onerror"
-	// jsrewrite:"$_.onerror = $1"
-	SetOnerror(onerror func(Event))
+	SetOnerror(onerror func(event.Event))
 }

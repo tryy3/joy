@@ -1,10 +1,9 @@
 package ms
 
-
-import "github.com/matthewmueller/joy/dom/rtcstats"
+import "github.com/matthewmueller/joy/dom/webrtc"
 
 type MSPayloadBase struct {
-	*rtcstats.RTCStats
+	*webrtc.RTCStats
 
-	payloadDescription *string
+	payloadDescription	*string
 }

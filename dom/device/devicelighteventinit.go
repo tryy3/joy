@@ -1,10 +1,9 @@
 package device
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
+import "github.com/matthewmueller/joy/dom/event"
 
 type DeviceLightEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	value *float32
+	value	*float32
 }

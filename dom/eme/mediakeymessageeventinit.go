@@ -1,14 +1,10 @@
 package eme
 
-
-import (
-	"github.com/matthewmueller/joy/dom/eventinit"
-	"github.com/matthewmueller/joy/dom/mediakeymessagetype"
-)
+import "github.com/matthewmueller/joy/dom/event"
 
 type MediaKeyMessageEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	message     *[]byte
-	messageType *mediakeymessagetype.MediaKeyMessageType
+	message		*[]byte
+	messageType	*MediaKeyMessageType
 }

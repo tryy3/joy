@@ -1,25 +1,11 @@
 package css
 
-
-import "github.com/matthewmueller/joy/dom/window"
-
-// CSSGroupingRule interface
-// js:"CSSGroupingRule"
 type CSSGroupingRule interface {
-	window.CSSRule
+	CSSRule
 
-	// DeleteRule
-	// js:"deleteRule"
-	// jsrewrite:"$_.deleteRule($1)"
 	DeleteRule(index uint)
 
-	// InsertRule
-	// js:"insertRule"
-	// jsrewrite:"$_.insertRule($1, $2)"
 	InsertRule(rule string, index uint) (u uint)
 
-	// CSSRules prop
-	// js:"cssRules"
-	// jsrewrite:"$_.cssRules"
-	CSSRules() (cssRules *window.CSSRuleList)
+	CSSRules() (cssRules *CSSRuleList)
 }

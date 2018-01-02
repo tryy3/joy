@@ -1,14 +1,10 @@
 package webrtc
 
-
-import (
-	"github.com/matthewmueller/joy/dom/msstatstype"
-	"github.com/matthewmueller/joy/dom/rtcstatstype"
-)
+import "github.com/matthewmueller/joy/dom/ms"
 
 type RTCStats struct {
-	id        *string
-	msType    *msstatstype.MSStatsType
-	timestamp *int
-	kind      *rtcstatstype.RTCStatsType
+	id		*string
+	msType		*ms.MSStatsType
+	timestamp	*int
+	kind		*RTCStatsType
 }

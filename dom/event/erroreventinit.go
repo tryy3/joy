@@ -1,14 +1,11 @@
 package event
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
-
 type ErrorEventInit struct {
-	*eventinit.EventInit
+	*EventInit
 
-	colno    *uint
-	err      *interface{}
-	filename *string
-	lineno   *uint
-	message  *string
+	colno		*uint
+	err		*interface{}
+	filename	*string
+	lineno		*uint
+	message		*string
 }

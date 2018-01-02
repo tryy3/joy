@@ -1,10 +1,9 @@
 package dom
 
-
-import "github.com/matthewmueller/joy/dom/window"
+import "github.com/matthewmueller/joy/dom/ui"
 
 type CompositionEventInit struct {
-	*window.UIEventInit
+	*ui.UIEventInit
 
-	data *string
+	data	*string
 }

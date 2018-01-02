@@ -1,14 +1,16 @@
 package serviceworker
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
+import (
+	"github.com/matthewmueller/joy/dom/event"
+	"github.com/matthewmueller/joy/dom/channelmessage"
+)
 
 type ServiceWorkerMessageEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	data        *interface{}
-	lastEventId *string
-	origin      *string
-	ports       *[]*MessagePort
-	source      *interface{}
+	data		*interface{}
+	lastEventId	*string
+	origin		*string
+	ports		*[]*channelmessage.MessagePort
+	source		*interface{}
 }

@@ -1,11 +1,8 @@
 package ms
 
-
-import "github.com/matthewmueller/joy/dom/mscredentialparameters"
-
 type MSFIDOCredentialParameters struct {
-	*mscredentialparameters.MSCredentialParameters
+	*MSCredentialParameters
 
-	algorithm      *interface{}
-	authenticators *[]string
+	algorithm	*interface{}
+	authenticators	*[]string
 }

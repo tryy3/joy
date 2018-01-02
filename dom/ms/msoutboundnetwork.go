@@ -1,10 +1,7 @@
 package ms
 
-
-import "github.com/matthewmueller/joy/dom/msnetwork"
-
 type MSOutboundNetwork struct {
-	*msnetwork.MSNetwork
+	*MSNetwork
 
-	appliedBandwidthLimit *uint
+	appliedBandwidthLimit	*uint
 }

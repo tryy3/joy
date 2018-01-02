@@ -1,10 +1,9 @@
 package utils
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
+import "github.com/matthewmueller/joy/dom/event"
 
 type TrackEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	track *interface{}
+	track	*interface{}
 }

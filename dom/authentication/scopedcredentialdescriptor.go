@@ -1,13 +1,9 @@
 package authentication
 
-
-import (
-	"github.com/matthewmueller/joy/dom/scopedcredentialtype"
-	"github.com/matthewmueller/joy/dom/transport"
-)
+import "github.com/matthewmueller/joy/dom/utils"
 
 type ScopedCredentialDescriptor struct {
-	id         []byte
-	transports *[]*transport.Transport
-	kind       *scopedcredentialtype.ScopedCredentialType
+	id		[]byte
+	transports	*[]*utils.Transport
+	kind		*ScopedCredentialType
 }

@@ -1,11 +1,10 @@
 package dom
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
+import "github.com/matthewmueller/joy/dom/event"
 
 type MediaEncryptedEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	initData     *[]byte
-	initDataType *string
+	initData	*[]byte
+	initDataType	*string
 }

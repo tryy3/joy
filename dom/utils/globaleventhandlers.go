@@ -1,97 +1,41 @@
 package utils
 
+import "github.com/matthewmueller/joy/dom/event"
 
-// GlobalEventHandlers interface
-// js:"GlobalEventHandlers"
 type GlobalEventHandlers interface {
+	Onpointercancel() (onpointercancel func(event.Event))
 
-	// Onpointercancel prop
-	// js:"onpointercancel"
-	// jsrewrite:"$_.onpointercancel"
-	Onpointercancel() (onpointercancel func(Event))
+	SetOnpointercancel(onpointercancel func(event.Event))
 
-	// SetOnpointercancel prop
-	// js:"onpointercancel"
-	// jsrewrite:"$_.onpointercancel = $1"
-	SetOnpointercancel(onpointercancel func(Event))
+	Onpointerdown() (onpointerdown func(event.Event))
 
-	// Onpointerdown prop
-	// js:"onpointerdown"
-	// jsrewrite:"$_.onpointerdown"
-	Onpointerdown() (onpointerdown func(Event))
+	SetOnpointerdown(onpointerdown func(event.Event))
 
-	// SetOnpointerdown prop
-	// js:"onpointerdown"
-	// jsrewrite:"$_.onpointerdown = $1"
-	SetOnpointerdown(onpointerdown func(Event))
+	Onpointerenter() (onpointerenter func(event.Event))
 
-	// Onpointerenter prop
-	// js:"onpointerenter"
-	// jsrewrite:"$_.onpointerenter"
-	Onpointerenter() (onpointerenter func(Event))
+	SetOnpointerenter(onpointerenter func(event.Event))
 
-	// SetOnpointerenter prop
-	// js:"onpointerenter"
-	// jsrewrite:"$_.onpointerenter = $1"
-	SetOnpointerenter(onpointerenter func(Event))
+	Onpointerleave() (onpointerleave func(event.Event))
 
-	// Onpointerleave prop
-	// js:"onpointerleave"
-	// jsrewrite:"$_.onpointerleave"
-	Onpointerleave() (onpointerleave func(Event))
+	SetOnpointerleave(onpointerleave func(event.Event))
 
-	// SetOnpointerleave prop
-	// js:"onpointerleave"
-	// jsrewrite:"$_.onpointerleave = $1"
-	SetOnpointerleave(onpointerleave func(Event))
+	Onpointermove() (onpointermove func(event.Event))
 
-	// Onpointermove prop
-	// js:"onpointermove"
-	// jsrewrite:"$_.onpointermove"
-	Onpointermove() (onpointermove func(Event))
+	SetOnpointermove(onpointermove func(event.Event))
 
-	// SetOnpointermove prop
-	// js:"onpointermove"
-	// jsrewrite:"$_.onpointermove = $1"
-	SetOnpointermove(onpointermove func(Event))
+	Onpointerout() (onpointerout func(event.Event))
 
-	// Onpointerout prop
-	// js:"onpointerout"
-	// jsrewrite:"$_.onpointerout"
-	Onpointerout() (onpointerout func(Event))
+	SetOnpointerout(onpointerout func(event.Event))
 
-	// SetOnpointerout prop
-	// js:"onpointerout"
-	// jsrewrite:"$_.onpointerout = $1"
-	SetOnpointerout(onpointerout func(Event))
+	Onpointerover() (onpointerover func(event.Event))
 
-	// Onpointerover prop
-	// js:"onpointerover"
-	// jsrewrite:"$_.onpointerover"
-	Onpointerover() (onpointerover func(Event))
+	SetOnpointerover(onpointerover func(event.Event))
 
-	// SetOnpointerover prop
-	// js:"onpointerover"
-	// jsrewrite:"$_.onpointerover = $1"
-	SetOnpointerover(onpointerover func(Event))
+	Onpointerup() (onpointerup func(event.Event))
 
-	// Onpointerup prop
-	// js:"onpointerup"
-	// jsrewrite:"$_.onpointerup"
-	Onpointerup() (onpointerup func(Event))
+	SetOnpointerup(onpointerup func(event.Event))
 
-	// SetOnpointerup prop
-	// js:"onpointerup"
-	// jsrewrite:"$_.onpointerup = $1"
-	SetOnpointerup(onpointerup func(Event))
+	Onwheel() (onwheel func(event.Event))
 
-	// Onwheel prop
-	// js:"onwheel"
-	// jsrewrite:"$_.onwheel"
-	Onwheel() (onwheel func(Event))
-
-	// SetOnwheel prop
-	// js:"onwheel"
-	// jsrewrite:"$_.onwheel = $1"
-	SetOnwheel(onwheel func(Event))
+	SetOnwheel(onwheel func(event.Event))
 }

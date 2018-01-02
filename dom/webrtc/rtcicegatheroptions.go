@@ -1,14 +1,9 @@
 package webrtc
 
-
-import (
-	"github.com/matthewmueller/joy/dom/msportrange"
-	"github.com/matthewmueller/joy/dom/rtcicegatherpolicy"
-	"github.com/matthewmueller/joy/dom/rtciceserver"
-)
+import "github.com/matthewmueller/joy/dom/ms"
 
 type RTCIceGatherOptions struct {
-	gatherPolicy *rtcicegatherpolicy.RTCIceGatherPolicy
-	iceservers   *[]*rtciceserver.RTCIceServer
-	portRange    *msportrange.MSPortRange
+	gatherPolicy	*RTCIceGatherPolicy
+	iceservers	*[]*RTCIceServer
+	portRange	*ms.MSPortRange
 }

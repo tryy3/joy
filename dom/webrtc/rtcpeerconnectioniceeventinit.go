@@ -1,13 +1,9 @@
 package webrtc
 
-
-import (
-	"github.com/matthewmueller/joy/dom/eventinit"
-	"github.com/matthewmueller/joy/dom/rtcicecandidate"
-)
+import "github.com/matthewmueller/joy/dom/event"
 
 type RTCPeerConnectionIceEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	candidate *rtcicecandidate.RTCIceCandidate
+	candidate	*RTCIceCandidate
 }

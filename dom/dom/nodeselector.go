@@ -1,17 +1,9 @@
 package dom
 
+import "github.com/matthewmueller/joy/dom/element"
 
-// NodeSelector interface
-// js:"NodeSelector"
 type NodeSelector interface {
+	QuerySelector(selectors string) (e element.Element)
 
-	// QuerySelector
-	// js:"querySelector"
-	// jsrewrite:"$_.querySelector($1)"
-	QuerySelector(selectors string) (e Element)
-
-	// QuerySelectorAll
-	// js:"querySelectorAll"
-	// jsrewrite:"$_.querySelectorAll($1)"
 	QuerySelectorAll(selectors string) (n *NodeList)
 }

@@ -1,44 +1,20 @@
 package ms
 
-
 import (
-	"github.com/matthewmueller/joy/dom/confirmsitespecificexceptionsinformation"
-	"github.com/matthewmueller/joy/dom/exceptioninformation"
-	"github.com/matthewmueller/joy/dom/storeexceptionsinformation"
-	"github.com/matthewmueller/joy/dom/storesitespecificexceptionsinformation"
+	"github.com/matthewmueller/joy/dom/navigation"
+	"github.com/matthewmueller/joy/dom/utils"
 )
 
-// MSNavigatorDoNotTrack interface
-// js:"MSNavigatorDoNotTrack"
 type MSNavigatorDoNotTrack interface {
+	ConfirmSiteSpecificTrackingException(args *navigation.ConfirmSiteSpecificExceptionsInformation) (b bool)
 
-	// ConfirmSiteSpecificTrackingException
-	// js:"confirmSiteSpecificTrackingException"
-	// jsrewrite:"$_.confirmSiteSpecificTrackingException($1)"
-	ConfirmSiteSpecificTrackingException(args *confirmsitespecificexceptionsinformation.ConfirmSiteSpecificExceptionsInformation) (b bool)
+	ConfirmWebWideTrackingException(args *utils.ExceptionInformation) (b bool)
 
-	// ConfirmWebWideTrackingException
-	// js:"confirmWebWideTrackingException"
-	// jsrewrite:"$_.confirmWebWideTrackingException($1)"
-	ConfirmWebWideTrackingException(args *exceptioninformation.ExceptionInformation) (b bool)
+	RemoveSiteSpecificTrackingException(args *utils.ExceptionInformation)
 
-	// RemoveSiteSpecificTrackingException
-	// js:"removeSiteSpecificTrackingException"
-	// jsrewrite:"$_.removeSiteSpecificTrackingException($1)"
-	RemoveSiteSpecificTrackingException(args *exceptioninformation.ExceptionInformation)
+	RemoveWebWideTrackingException(args *utils.ExceptionInformation)
 
-	// RemoveWebWideTrackingException
-	// js:"removeWebWideTrackingException"
-	// jsrewrite:"$_.removeWebWideTrackingException($1)"
-	RemoveWebWideTrackingException(args *exceptioninformation.ExceptionInformation)
+	StoreSiteSpecificTrackingException(args *utils.StoreSiteSpecificExceptionsInformation)
 
-	// StoreSiteSpecificTrackingException
-	// js:"storeSiteSpecificTrackingException"
-	// jsrewrite:"$_.storeSiteSpecificTrackingException($1)"
-	StoreSiteSpecificTrackingException(args *storesitespecificexceptionsinformation.StoreSiteSpecificExceptionsInformation)
-
-	// StoreWebWideTrackingException
-	// js:"storeWebWideTrackingException"
-	// jsrewrite:"$_.storeWebWideTrackingException($1)"
-	StoreWebWideTrackingException(args *storeexceptionsinformation.StoreExceptionsInformation)
+	StoreWebWideTrackingException(args *utils.StoreExceptionsInformation)
 }

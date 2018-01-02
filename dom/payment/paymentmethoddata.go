@@ -1,7 +1,6 @@
 package payment
 
-
 type PaymentMethodData struct {
-	data             *interface{}
-	supportedMethods []string
+	data			*interface{}
+	supportedMethods	[]string
 }

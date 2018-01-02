@@ -1,39 +1,27 @@
 package mutation
 
-
 import (
-	"github.com/matthewmueller/joy/dom/mutationobserverinit"
-	"github.com/matthewmueller/joy/dom/mutationrecord"
-	"github.com/matthewmueller/joy/dom/window"
 	"github.com/matthewmueller/joy/macro"
+	"github.com/matthewmueller/joy/dom/dom"
 )
 
-// New fn
-func New(callback func(mutations []*mutationrecord.MutationRecord, observer *MutationObserver)) *MutationObserver {
+func New(callback func(mutations []*MutationRecord, observer *MutationObserver)) *MutationObserver {
 	macro.Rewrite("new MutationObserver($1)", callback)
 	return &MutationObserver{}
 }
 
-// MutationObserver struct
-// js:"MutationObserver,omit"
 type MutationObserver struct {
 }
 
-// Disconnect fn
-// js:"disconnect"
 func (*MutationObserver) Disconnect() {
 	macro.Rewrite("$_.disconnect()")
 }
 
-// Observe fn
-// js:"observe"
-func (*MutationObserver) Observe(target window.Node, options *mutationobserverinit.MutationObserverInit) {
+func (*MutationObserver) Observe(target dom.Node, options *MutationObserverInit) {
 	macro.Rewrite("$_.observe($1, $2)", target, options)
 }
 
-// TakeRecords fn
-// js:"takeRecords"
-func (*MutationObserver) TakeRecords() (m []*mutationrecord.MutationRecord) {
+func (*MutationObserver) TakeRecords() (m []*MutationRecord) {
 	macro.Rewrite("$_.takeRecords()")
 	return m
 }

@@ -1,10 +1,7 @@
 package mediastreams
 
-
-import "github.com/matthewmueller/joy/dom/mediatrackconstraintset"
-
 type MediaTrackConstraints struct {
-	*mediatrackconstraintset.MediaTrackConstraintSet
+	*MediaTrackConstraintSet
 
-	advanced *[]*mediatrackconstraintset.MediaTrackConstraintSet
+	advanced	*[]*MediaTrackConstraintSet
 }

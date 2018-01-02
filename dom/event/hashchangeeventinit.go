@@ -1,11 +1,8 @@
 package event
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
-
 type HashChangeEventInit struct {
-	*eventinit.EventInit
+	*EventInit
 
-	newURL *string
-	oldURL *string
+	newURL	*string
+	oldURL	*string
 }

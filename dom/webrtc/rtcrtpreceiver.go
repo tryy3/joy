@@ -1,131 +1,90 @@
 package webrtc
 
-
 import (
-	"github.com/matthewmueller/joy/dom/rtcdtlstransport"
-	"github.com/matthewmueller/joy/dom/rtcrtpcapabilities"
-	"github.com/matthewmueller/joy/dom/rtcrtpcontributingsource"
-	"github.com/matthewmueller/joy/dom/rtcrtpparameters"
-	"github.com/matthewmueller/joy/dom/rtcstatsprovider"
-	"github.com/matthewmueller/joy/dom/rtcstatsreport"
-	"github.com/matthewmueller/joy/dom/window"
 	"github.com/matthewmueller/joy/macro"
+	"github.com/matthewmueller/joy/dom/event"
+	"github.com/matthewmueller/joy/dom/mediastreams"
 )
 
-var _ rtcstatsprovider.RTCStatsProvider = (*RTCRtpReceiver)(nil)
-var _ window.EventTarget = (*RTCRtpReceiver)(nil)
+var _ RTCStatsProvider = (*RTCRtpReceiver)(nil)
+var _ event.EventTarget = (*RTCRtpReceiver)(nil)
 
-// New fn
-func New(transport interface{}, kind string, rtcptransport *rtcdtlstransport.RTCDtlsTransport) *RTCRtpReceiver {
+func New(transport interface{}, kind string, rtcptransport *RTCDtlsTransport) *RTCRtpReceiver {
 	macro.Rewrite("new RTCRtpReceiver($1, $2, $3)", transport, kind, rtcptransport)
 	return &RTCRtpReceiver{}
 }
 
-// RTCRtpReceiver struct
-// js:"RTCRtpReceiver,omit"
 type RTCRtpReceiver struct {
 }
 
-// GetCapabilities fn
-// js:"getCapabilities"
-func (*RTCRtpReceiver) GetCapabilities(kind *string) (r *rtcrtpcapabilities.RTCRtpCapabilities) {
+func (*RTCRtpReceiver) GetCapabilities(kind *string) (r *RTCRtpCapabilities) {
 	macro.Rewrite("$_.getCapabilities($1)", kind)
 	return r
 }
 
-// GetContributingSources fn
-// js:"getContributingSources"
-func (*RTCRtpReceiver) GetContributingSources() (r []*rtcrtpcontributingsource.RTCRtpContributingSource) {
+func (*RTCRtpReceiver) GetContributingSources() (r []*RTCRtpContributingSource) {
 	macro.Rewrite("$_.getContributingSources()")
 	return r
 }
 
-// Receive fn
-// js:"receive"
-func (*RTCRtpReceiver) Receive(parameters *rtcrtpparameters.RTCRtpParameters) {
+func (*RTCRtpReceiver) Receive(parameters *RTCRtpParameters) {
 	macro.Rewrite("$_.receive($1)", parameters)
 }
 
-// RequestSendCSRC fn
-// js:"requestSendCSRC"
 func (*RTCRtpReceiver) RequestSendCSRC(csrc uint) {
 	macro.Rewrite("$_.requestSendCSRC($1)", csrc)
 }
 
-// SetTransport fn
-// js:"setTransport"
-func (*RTCRtpReceiver) SetTransport(transport interface{}, rtcpTransport *rtcdtlstransport.RTCDtlsTransport) {
+func (*RTCRtpReceiver) SetTransport(transport interface{}, rtcpTransport *RTCDtlsTransport) {
 	macro.Rewrite("$_.setTransport($1, $2)", transport, rtcpTransport)
 }
 
-// Stop fn
-// js:"stop"
 func (*RTCRtpReceiver) Stop() {
 	macro.Rewrite("$_.stop()")
 }
 
-// GetStats fn
-// js:"getStats"
-func (*RTCRtpReceiver) GetStats() (r *rtcstatsreport.RTCStatsReport) {
+func (*RTCRtpReceiver) GetStats() (r *RTCStatsReport) {
 	macro.Rewrite("await $_.getStats()")
 	return r
 }
 
-// MsGetStats fn
-// js:"msGetStats"
-func (*RTCRtpReceiver) MsGetStats() (r *rtcstatsreport.RTCStatsReport) {
+func (*RTCRtpReceiver) MsGetStats() (r *RTCStatsReport) {
 	macro.Rewrite("await $_.msGetStats()")
 	return r
 }
 
-// AddEventListener fn
-// js:"addEventListener"
-func (*RTCRtpReceiver) AddEventListener(kind string, listener func(evt window.Event), useCapture bool) {
+func (*RTCRtpReceiver) AddEventListener(kind string, listener func(evt event.Event), useCapture bool) {
 	macro.Rewrite("$_.addEventListener($1, $2, $3)", kind, listener, useCapture)
 }
 
-// DispatchEvent fn
-// js:"dispatchEvent"
-func (*RTCRtpReceiver) DispatchEvent(evt window.Event) (b bool) {
+func (*RTCRtpReceiver) DispatchEvent(evt event.Event) (b bool) {
 	macro.Rewrite("$_.dispatchEvent($1)", evt)
 	return b
 }
 
-// RemoveEventListener fn
-// js:"removeEventListener"
-func (*RTCRtpReceiver) RemoveEventListener(kind string, listener func(evt window.Event), useCapture bool) {
+func (*RTCRtpReceiver) RemoveEventListener(kind string, listener func(evt event.Event), useCapture bool) {
 	macro.Rewrite("$_.removeEventListener($1, $2, $3)", kind, listener, useCapture)
 }
 
-// Onerror prop
-// js:"onerror"
-func (*RTCRtpReceiver) Onerror() (onerror func(window.Event)) {
+func (*RTCRtpReceiver) Onerror() (onerror func(event.Event)) {
 	macro.Rewrite("$_.onerror")
 	return onerror
 }
 
-// SetOnerror prop
-// js:"onerror"
-func (*RTCRtpReceiver) SetOnerror(onerror func(window.Event)) {
+func (*RTCRtpReceiver) SetOnerror(onerror func(event.Event)) {
 	macro.Rewrite("$_.onerror = $1", onerror)
 }
 
-// RtcpTransport prop
-// js:"rtcpTransport"
-func (*RTCRtpReceiver) RtcpTransport() (rtcpTransport *rtcdtlstransport.RTCDtlsTransport) {
+func (*RTCRtpReceiver) RtcpTransport() (rtcpTransport *RTCDtlsTransport) {
 	macro.Rewrite("$_.rtcpTransport")
 	return rtcpTransport
 }
 
-// Track prop
-// js:"track"
-func (*RTCRtpReceiver) Track() (track *window.MediaStreamTrack) {
+func (*RTCRtpReceiver) Track() (track *mediastreams.MediaStreamTrack) {
 	macro.Rewrite("$_.track")
 	return track
 }
 
-// Transport prop
-// js:"transport"
 func (*RTCRtpReceiver) Transport() (transport interface{}) {
 	macro.Rewrite("$_.transport")
 	return transport

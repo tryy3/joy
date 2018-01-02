@@ -1,16 +1,10 @@
 package ms
 
-
-import (
-	"github.com/matthewmueller/joy/dom/msaudiosendsignal"
-	"github.com/matthewmueller/joy/dom/mspayloadbase"
-)
-
 type MSAudioSendPayload struct {
-	*mspayloadbase.MSPayloadBase
+	*MSPayloadBase
 
-	audioFECUsed    *bool
-	samplingRate    *uint
-	sendMutePercent *float32
-	signal          *msaudiosendsignal.MSAudioSendSignal
+	audioFECUsed	*bool
+	samplingRate	*uint
+	sendMutePercent	*float32
+	signal		*MSAudioSendSignal
 }

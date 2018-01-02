@@ -1,10 +1,9 @@
 package navigation
 
-
-import "github.com/matthewmueller/joy/dom/exceptioninformation"
+import "github.com/matthewmueller/joy/dom/utils"
 
 type ConfirmSiteSpecificExceptionsInformation struct {
-	*exceptioninformation.ExceptionInformation
+	*utils.ExceptionInformation
 
-	arrayOfDomainStrings *[]string
+	arrayOfDomainStrings	*[]string
 }

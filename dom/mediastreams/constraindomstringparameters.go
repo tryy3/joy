@@ -1,7 +1,6 @@
 package mediastreams
 
-
 type ConstrainDOMStringParameters struct {
-	exact *interface{}
-	ideal *interface{}
+	exact	*interface{}
+	ideal	*interface{}
 }

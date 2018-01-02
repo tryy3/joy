@@ -1,12 +1,11 @@
 package utils
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
+import "github.com/matthewmueller/joy/dom/event"
 
 type ProgressEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	lengthComputable *bool
-	loaded           *uint64
-	total            *uint64
+	lengthComputable	*bool
+	loaded			*uint64
+	total			*uint64
 }

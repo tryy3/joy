@@ -1,58 +1,29 @@
 package indexdb
 
-
 import (
-	"github.com/matthewmueller/joy/dom/domerror"
-	"github.com/matthewmueller/joy/dom/idbrequestreadystate"
+	"github.com/matthewmueller/joy/dom/event"
+	"github.com/matthewmueller/joy/dom/dom"
 )
 
-// IDBRequest interface
-// js:"IDBRequest"
 type IDBRequest interface {
-	EventTarget
+	event.
+		EventTarget
 
-	// Error prop
-	// js:"error"
-	// jsrewrite:"$_.error"
-	Error() (err *domerror.DOMError)
+	Error() (err *dom.DOMError)
 
-	// Onerror prop
-	// js:"onerror"
-	// jsrewrite:"$_.onerror"
-	Onerror() (onerror func(Event))
+	Onerror() (onerror func(event.Event))
 
-	// SetOnerror prop
-	// js:"onerror"
-	// jsrewrite:"$_.onerror = $1"
-	SetOnerror(onerror func(Event))
+	SetOnerror(onerror func(event.Event))
 
-	// Onsuccess prop
-	// js:"onsuccess"
-	// jsrewrite:"$_.onsuccess"
-	Onsuccess() (onsuccess func(Event))
+	Onsuccess() (onsuccess func(event.Event))
 
-	// SetOnsuccess prop
-	// js:"onsuccess"
-	// jsrewrite:"$_.onsuccess = $1"
-	SetOnsuccess(onsuccess func(Event))
+	SetOnsuccess(onsuccess func(event.Event))
 
-	// ReadyState prop
-	// js:"readyState"
-	// jsrewrite:"$_.readyState"
-	ReadyState() (readyState *idbrequestreadystate.IDBRequestReadyState)
+	ReadyState() (readyState *IDBRequestReadyState)
 
-	// Result prop
-	// js:"result"
-	// jsrewrite:"$_.result"
 	Result() (result interface{})
 
-	// Source prop
-	// js:"source"
-	// jsrewrite:"$_.source"
 	Source() (source interface{})
 
-	// Transaction prop
-	// js:"transaction"
-	// jsrewrite:"$_.transaction"
 	Transaction() (transaction *IDBTransaction)
 }

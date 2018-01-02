@@ -1,12 +1,11 @@
 package websocket
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
+import "github.com/matthewmueller/joy/dom/event"
 
 type CloseEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	code     *uint8
-	reason   *string
-	wasClean *bool
+	code		*uint8
+	reason		*string
+	wasClean	*bool
 }

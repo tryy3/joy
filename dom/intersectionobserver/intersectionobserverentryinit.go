@@ -1,15 +1,14 @@
 package intersectionobserver
 
-
 import (
-	"github.com/matthewmueller/joy/dom/domrectinit"
-	"github.com/matthewmueller/joy/dom/window"
+	"github.com/matthewmueller/joy/dom/dom"
+	"github.com/matthewmueller/joy/dom/element"
 )
 
 type IntersectionObserverEntryInit struct {
-	boundingClientRect *domrectinit.DOMRectInit
-	intersectionRect   *domrectinit.DOMRectInit
-	rootBounds         *domrectinit.DOMRectInit
-	target             window.Element
-	time               int
+	boundingClientRect	*dom.DOMRectInit
+	intersectionRect	*dom.DOMRectInit
+	rootBounds		*dom.DOMRectInit
+	target			element.Element
+	time			int
 }

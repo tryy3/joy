@@ -1,12 +1,9 @@
 package utils
 
-
-import "github.com/matthewmueller/joy/dom/exceptioninformation"
-
 type StoreExceptionsInformation struct {
-	*exceptioninformation.ExceptionInformation
+	*ExceptionInformation
 
-	detailURI         *string
-	explanationString *string
-	siteName          *string
+	detailURI		*string
+	explanationString	*string
+	siteName		*string
 }

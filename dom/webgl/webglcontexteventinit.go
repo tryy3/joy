@@ -1,10 +1,9 @@
 package webgl
 
-
-import "github.com/matthewmueller/joy/dom/eventinit"
+import "github.com/matthewmueller/joy/dom/event"
 
 type WebGLContextEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	statusMessage *string
+	statusMessage	*string
 }

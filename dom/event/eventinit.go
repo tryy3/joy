@@ -1,7 +1,6 @@
 package event
 
-
 type EventInit struct {
-	bubbles    *bool
-	cancelable *bool
+	bubbles		*bool
+	cancelable	*bool
 }

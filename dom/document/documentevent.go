@@ -1,12 +1,7 @@
 package document
 
+import "github.com/matthewmueller/joy/dom/event"
 
-// DocumentEvent interface
-// js:"DocumentEvent"
 type DocumentEvent interface {
-
-	// CreateEvent
-	// js:"createEvent"
-	// jsrewrite:"$_.createEvent($1)"
-	CreateEvent(eventInterface string) (e Event)
+	CreateEvent(eventInterface string) (e event.Event)
 }

@@ -1,40 +1,29 @@
 package utils
 
-
 import (
-	"github.com/matthewmueller/joy/dom/window"
-	"github.com/matthewmueller/joy/dom/xpathnsresolver"
 	"github.com/matthewmueller/joy/macro"
+	"github.com/matthewmueller/joy/dom/dom"
 )
 
-// New fn
 func New() *XPathEvaluator {
 	macro.Rewrite("new XPathEvaluator()")
 	return &XPathEvaluator{}
 }
 
-// XPathEvaluator struct
-// js:"XPathEvaluator,omit"
 type XPathEvaluator struct {
 }
 
-// CreateExpression fn
-// js:"createExpression"
-func (*XPathEvaluator) CreateExpression(expression string, resolver *xpathnsresolver.XPathNSResolver) (w *window.XPathExpression) {
+func (*XPathEvaluator) CreateExpression(expression string, resolver *XPathNSResolver) (w *XPathExpression) {
 	macro.Rewrite("$_.createExpression($1, $2)", expression, resolver)
 	return w
 }
 
-// CreateNSResolver fn
-// js:"createNSResolver"
-func (*XPathEvaluator) CreateNSResolver(nodeResolver *window.Node) (x *xpathnsresolver.XPathNSResolver) {
+func (*XPathEvaluator) CreateNSResolver(nodeResolver *dom.Node) (x *XPathNSResolver) {
 	macro.Rewrite("$_.createNSResolver($1)", nodeResolver)
 	return x
 }
 
-// Evaluate fn
-// js:"evaluate"
-func (*XPathEvaluator) Evaluate(expression string, contextNode window.Node, resolver *xpathnsresolver.XPathNSResolver, kind uint8, result *window.XPathResult) (w *window.XPathResult) {
+func (*XPathEvaluator) Evaluate(expression string, contextNode dom.Node, resolver *XPathNSResolver, kind uint8, result *XPathResult) (w *XPathResult) {
 	macro.Rewrite("$_.evaluate($1, $2, $3, $4, $5)", expression, contextNode, resolver, kind, result)
 	return w
 }

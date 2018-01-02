@@ -1,9 +1,8 @@
 package webrtc
 
-
 type RTCOfferOptions struct {
-	iceRestart             *bool
-	offerToReceiveAudio    *int
-	offerToReceiveVideo    *int
-	voiceActivityDetection *bool
+	iceRestart		*bool
+	offerToReceiveAudio	*int
+	offerToReceiveVideo	*int
+	voiceActivityDetection	*bool
 }

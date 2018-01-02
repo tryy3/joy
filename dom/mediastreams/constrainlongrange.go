@@ -1,11 +1,8 @@
 package mediastreams
 
-
-import "github.com/matthewmueller/joy/dom/longrange"
-
 type ConstrainLongRange struct {
-	*longrange.LongRange
+	*LongRange
 
-	exact *int
-	ideal *int
+	exact	*int
+	ideal	*int
 }

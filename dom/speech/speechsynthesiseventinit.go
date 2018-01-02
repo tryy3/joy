@@ -1,16 +1,12 @@
 package speech
 
-
-import (
-	"github.com/matthewmueller/joy/dom/eventinit"
-	"github.com/matthewmueller/joy/dom/window"
-)
+import "github.com/matthewmueller/joy/dom/event"
 
 type SpeechSynthesisEventInit struct {
-	*eventinit.EventInit
+	*event.EventInit
 
-	charIndex   *uint
-	elapsedTime *float32
-	name        *string
-	utterance   *window.SpeechSynthesisUtterance
+	charIndex	*uint
+	elapsedTime	*float32
+	name		*string
+	utterance	*SpeechSynthesisUtterance
 }

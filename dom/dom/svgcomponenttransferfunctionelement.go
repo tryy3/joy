@@ -1,50 +1,19 @@
 package dom
 
-
-import (
-	"github.com/matthewmueller/joy/dom/svganimatedenumeration"
-	"github.com/matthewmueller/joy/dom/svganimatednumber"
-	"github.com/matthewmueller/joy/dom/svganimatednumberlist"
-	"github.com/matthewmueller/joy/dom/window"
-)
-
-// SVGComponentTransferFunctionElement interface
-// js:"SVGComponentTransferFunctionElement"
 type SVGComponentTransferFunctionElement interface {
-	window.SVGElement
+	SVGElement
 
-	// Amplitude prop
-	// js:"amplitude"
-	// jsrewrite:"$_.amplitude"
-	Amplitude() (amplitude *svganimatednumber.SVGAnimatedNumber)
+	Amplitude() (amplitude *SVGAnimatedNumber)
 
-	// Exponent prop
-	// js:"exponent"
-	// jsrewrite:"$_.exponent"
-	Exponent() (exponent *svganimatednumber.SVGAnimatedNumber)
+	Exponent() (exponent *SVGAnimatedNumber)
 
-	// Intercept prop
-	// js:"intercept"
-	// jsrewrite:"$_.intercept"
-	Intercept() (intercept *svganimatednumber.SVGAnimatedNumber)
+	Intercept() (intercept *SVGAnimatedNumber)
 
-	// Offset prop
-	// js:"offset"
-	// jsrewrite:"$_.offset"
-	Offset() (offset *svganimatednumber.SVGAnimatedNumber)
+	Offset() (offset *SVGAnimatedNumber)
 
-	// Slope prop
-	// js:"slope"
-	// jsrewrite:"$_.slope"
-	Slope() (slope *svganimatednumber.SVGAnimatedNumber)
+	Slope() (slope *SVGAnimatedNumber)
 
-	// TableValues prop
-	// js:"tableValues"
-	// jsrewrite:"$_.tableValues"
-	TableValues() (tableValues *svganimatednumberlist.SVGAnimatedNumberList)
+	TableValues() (tableValues *SVGAnimatedNumberList)
 
-	// Type prop
-	// js:"type"
-	// jsrewrite:"$_.type"
-	Type() (kind *svganimatedenumeration.SVGAnimatedEnumeration)
+	Type() (kind *SVGAnimatedEnumeration)
 }
