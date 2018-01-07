@@ -1,6 +1,6 @@
 package webrtc
 
 type RTCSessionDescriptionInit struct {
-	sdp	*string
-	kind	*RTCSdpType
+	sdp  *string
+	kind *RTCSdpType
 }

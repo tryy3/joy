@@ -1,0 +1,4282 @@
+[
+    {
+        "Name": "streams",
+        "Files": [
+            {
+                "Name": "readablestream.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "readablestreamreader.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "touch",
+        "Files": [
+            {
+                "Name": "touch.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "touchevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "touchlist.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "audio",
+        "Files": [
+            {
+                "Name": "analysernode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "audiobuffer.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "audiobuffersourcenode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "audiocontext.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "audiocontextstate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "audiodestinationnode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "audiolistener.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "audionode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "audioparam.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "audioprocessingevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "audiotrack.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "audiotracklist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "biquadfilternode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "biquadfiltertype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "channelcountmode.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "channelinterpretation.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "channelmergernode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "channelsplitternode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "convolvernode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "delaynode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "distancemodeltype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "dynamicscompressornode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "gainnode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "iirfilternode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediaelementaudiosourcenode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediastreamaudiosourcenode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "offlineaudiocompletionevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "offlineaudiocontext.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "oscillatornode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "oscillatortype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "oversampletype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "pannernode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "panningmodeltype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "periodicwave.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "periodicwaveconstraints.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "scriptprocessornode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "sourcebuffer.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "stereopannernode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "videotrack.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "videotracklist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "waveshapernode.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "eme",
+        "Files": [
+            {
+                "Name": "mediakeymessageevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediakeymessageeventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediakeymessagetype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediakeys.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediakeysession.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediakeysessiontype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediakeysrequirement.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediakeystatus.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediakeystatusmap.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediakeysystemaccess.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediakeysystemconfiguration.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediakeysystemmediacapability.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "event",
+        "Files": [
+            {
+                "Name": "customevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "customeventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "errorevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "erroreventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "event.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "eventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "eventmodifierinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "eventtarget.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "hashchangeevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "hashchangeeventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "gamepad",
+        "Files": [
+            {
+                "Name": "gamepad.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "gamepadbutton.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "gamepadevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "gamepadeventinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "gamepadinputemulationtype.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "push",
+        "Files": [
+            {
+                "Name": "pushencryptionkeyname.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "pushmanager.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "pushpermissionstate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "pushsubscription.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "pushsubscriptionoptions.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "pushsubscriptionoptionsinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "storage",
+        "Files": [
+            {
+                "Name": "storage.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "storageevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "ui",
+        "Files": [
+            {
+                "Name": "uievent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "uieventinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "url",
+        "Files": [
+            {
+                "Name": "location.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "objecturloptions.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "url.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "utils",
+        "Files": [
+            {
+                "Name": "applicationcache.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "beforeunloadevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "clipboardevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "console.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "devicelightevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "devicemotionevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "deviceorientationevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "exceptioninformation.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "focusevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "focuseventinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "globaleventhandlers.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "intersectionobserverentry.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "keyboardevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "keyboardeventinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediaerror.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "messageevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "messageeventinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mimetype.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mimetypearray.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "pagetransitionevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "perfwidgetexternal.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "plugin.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "pluginarray.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "pointerevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "pointereventinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "popstateevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "progressevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "progresseventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "screen.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "sourcebufferlist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "storeexceptionsinformation.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "storesitespecificexceptionsinformation.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "trackevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "trackeventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "transport.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "validitystate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "wheelevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "wheeleventinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "xpathevaluator.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "xpathexpression.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "xpathnsresolver.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "xpathresult.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "xsltprocessor.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "webkit",
+        "Files": [
+            {
+                "Name": "webkitcssmatrix.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "webkitdirectoryentry.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "webkitdirectoryreader.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "webkitentry.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "webkitfileentry.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "webkitfilesystem.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "webkitpoint.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webkitrtcpeerconnection.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "cache",
+        "Files": [
+            {
+                "Name": "cache.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "cachequeryoptions.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "cachestorage.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "css",
+        "Files": [
+            {
+                "Name": "css.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "cssconditionrule.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "cssfontfacerule.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "cssgroupingrule.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "cssimportrule.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "csskeyframerule.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "csskeyframesrule.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "cssmediarule.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "cssnamespacerule.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "csspagerule.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "cssrule.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "cssrulelist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "cssstyledeclaration.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "cssstylerule.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "cssstylesheet.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "csssupportsrule.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "linkstyle.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "medialist.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediaquerylist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "stylesheet.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "stylesheetlist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "stylesheetpagelist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "transitionevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "transitioneventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "html",
+        "Files": [
+            {
+                "Name": "getsvgdocument.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlallcollection.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlanchorelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlappletelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlareaelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlareascollection.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlaudioelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlbaseelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlbasefontelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlbodyelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlbrelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlbuttonelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlcanvaselement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlcollection.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmldataelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmldatalistelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmldirectoryelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmldivelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmldlistelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmldocument.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlembedelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlfieldsetelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlfontelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlformcontrolscollection.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlformelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlframeelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlframesetelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlheadelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlheadingelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlhrelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlhtmlelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmliframeelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlimageelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlinputelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmllabelelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmllegendelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmllielement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmllinkelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlmapelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlmarqueeelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlmediaelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlmenuelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlmetaelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlmeterelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlmodelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlobjectelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlolistelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmloptgroupelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmloptionelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmloptionscollection.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmloutputelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlparagraphelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlparamelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlpictureelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlpreelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlprogresselement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlquoteelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlscriptelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlselectelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlsourceelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlspanelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlstyleelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmltablealignment.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "htmltablecaptionelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmltablecellelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmltablecolelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmltabledatacellelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmltableelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmltableheadercellelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmltablerowelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmltablesectionelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmltemplateelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmltextareaelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmltimeelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmltitleelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmltrackelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlulistelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlunknownelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "htmlvideoelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "permissions",
+        "Files": [
+            {
+                "Name": "deferredpermissionrequest.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "permissionrequest.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "permissionrequestedevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "xhr",
+        "Files": [
+            {
+                "Name": "formdata.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "xmlhttprequest.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "xmlhttprequesteventtarget.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "xmlhttprequestresponsetype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "xmlhttprequestupload.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "xmlserializer.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "animation",
+        "Files": [
+            {
+                "Name": "animationevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "animationeventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "authentication",
+        "Files": [
+            {
+                "Name": "account.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "assertionoptions.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "clientdata.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "scopedcredential.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "scopedcredentialdescriptor.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "scopedcredentialinfo.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "scopedcredentialoptions.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "scopedcredentialparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "scopedcredentialtype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webauthentication.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "webauthnassertion.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "webauthnextensions.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "document",
+        "Files": [
+            {
+                "Name": "document.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "documentevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "documentfragment.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "documenttype.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "scriptnotifyevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "unviewablecontentidentifiedevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "visibilitystate.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "indexdb",
+        "Files": [
+            {
+                "Name": "idbcursor.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "idbcursordirection.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "idbcursorwithvalue.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "idbdatabase.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "idbenvironment.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "idbfactory.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "idbindex.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "idbindexparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "idbkeyrange.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "idbobjectstore.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "idbobjectstoreparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "idbopendbrequest.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "idbrequest.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "idbrequestreadystate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "idbtransaction.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "idbtransactionmode.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "idbversionchangeevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "ms",
+        "Files": [
+            {
+                "Name": "extensionscriptapis.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "ms.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msaccountinfo.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msapp.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msappasyncoperation.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msassertion.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msaudiolocalclientevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msaudiorecvpayload.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msaudiorecvsignal.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msaudiosendpayload.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msaudiosendsignal.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msbasereader.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msblobbuilder.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msconnectivity.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mscredentialfilter.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mscredentialparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mscredentials.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mscredentialspec.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mscredentialtype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msdelay.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msdescription.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msfidocredentialassertion.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msfidocredentialparameters.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msfidosignature.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msfidosignatureassertion.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msfilesaver.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msgesture.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msgestureevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msgraphicstrust.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mshtmlwebviewelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msiceaddrtype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msicetype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msicewarningflags.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msinputmethodcontext.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msipaddressinfo.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msjitter.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mslocalclienteventbase.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msmanipulationevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msmediakeyerror.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msmediakeymessageevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msmediakeyneededevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msmediakeys.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msmediakeysession.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msnavigatordonottrack.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msnetwork.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msnetworkconnectivityinfo.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msnetworkinterfacetype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msoutboundnetwork.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mspacketloss.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mspayloadbase.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mspointerevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msportrange.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msrangecollection.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msrelayaddress.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mssignatureparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mssitemodeevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msstatstype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msstream.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msstreamreader.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mstransportdiagnosticsstats.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mstransporttype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msutilization.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msvideopayload.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msvideorecvpayload.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "msvideoresolutiondistribution.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "msvideosendpayload.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mswebviewasyncoperation.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mswebviewpermissionstate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mswebviewpermissiontype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mswebviewsettings.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mszoomtooptions.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "webvvt",
+        "Files": [
+            {
+                "Name": "datacue.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "texttrack.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "texttrackcue.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "texttrackcuelist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "texttracklist.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "device",
+        "Files": [
+            {
+                "Name": "deviceacceleration.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "deviceaccelerationdict.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "devicelighteventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "devicemotioneventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "deviceorientationeventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "devicerotationrate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "devicerotationratedict.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "dom",
+        "Files": [
+            {
+                "Name": "attr.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "cdatasection.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "characterdata.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "childnode.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "clientrect.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "clientrectlist.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "comment.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "compositionevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "compositioneventinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "domerror.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "domexception.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "domimplementation.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "doml2deprecatedcolorproperty.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "doml2deprecatedsizeproperty.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "domparser.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "domrectinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "domsettabletokenlist.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "domstringlist.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "domstringmap.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "domtimestamp.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "domtokenlist.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "expandgranularity.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "focusnavigationevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "focusnavigationeventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "listeningstate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "listeningstatechangedevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "longrunningscriptdetectedevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediaencryptedevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediaencryptedeventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "namednodemap.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "node.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "nodefilter.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "nodeiterator.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "nodelist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "nodeselector.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "nondocumenttypechildnode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "overflowevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "parentnode.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "processinginstruction.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rng.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "selection.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgaelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgangle.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svganimatedangle.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svganimatedboolean.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svganimatedenumeration.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svganimatedinteger.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svganimatedlength.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svganimatedlengthlist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svganimatednumber.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svganimatednumberlist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svganimatedpoints.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svganimatedpreserveaspectratio.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svganimatedrect.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svganimatedstring.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svganimatedtransformlist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgcircleelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgclippathelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgcomponenttransferfunctionelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgdefselement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgdescelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgelementinstance.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgelementinstancelist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgellipseelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfeblendelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfecolormatrixelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfecomponenttransferelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfecompositeelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfeconvolvematrixelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfediffuselightingelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfedisplacementmapelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfedistantlightelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfefloodelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfefuncaelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfefuncbelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfefuncgelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfefuncrelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfegaussianblurelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfeimageelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfemergeelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfemergenodeelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfemorphologyelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfeoffsetelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfepointlightelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfespecularlightingelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfespotlightelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfetileelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfeturbulenceelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfilterelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfilterprimitivestandardattributes.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgfittoviewbox.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgforeignobjectelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svggelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svggradientelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svggraphicselement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgimageelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svglength.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svglengthlist.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svglineargradientelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svglineelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgmarkerelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgmaskelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgmatrix.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgmetadataelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgnumber.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgnumberlist.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathseg.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathsegarcabs.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathsegarcrel.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathsegclosepath.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathsegcurvetocubicabs.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathsegcurvetocubicrel.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathsegcurvetocubicsmoothabs.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathsegcurvetocubicsmoothrel.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathsegcurvetoquadraticabs.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathsegcurvetoquadraticrel.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathsegcurvetoquadraticsmoothabs.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathsegcurvetoquadraticsmoothrel.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathseglinetoabs.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathseglinetohorizontalabs.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathseglinetohorizontalrel.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathseglinetorel.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathseglinetoverticalabs.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathseglinetoverticalrel.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathseglist.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathsegmovetoabs.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpathsegmovetorel.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpatternelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpoint.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpointlist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpolygonelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpolylineelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgpreserveaspectratio.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgradialgradientelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgrect.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgrectelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgscriptelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgstopelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgstringlist.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgstyleelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgsvgelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgswitchelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgsymbolelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgtests.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgtextcontentelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgtextelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgtextpathelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgtextpositioningelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgtitleelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgtransform.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgtransformlist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgtspanelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgunittypes.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgurireference.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svguseelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgviewelement.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "svgzoomandpan.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "svgzoomevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "text.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "textdecoder.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "textencoder.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "textevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "timeranges.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "mediasource",
+        "Files": [
+            {
+                "Name": "appendmode.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediasource.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "videoplaybackquality.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "treewalker",
+        "Files": [
+            {
+                "Name": "treewalker.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "webgl",
+        "Files": [
+            {
+                "Name": "angleinstancedarrays.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "extfragdepth.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "exttexturefilteranisotropic.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "oeselementindexuint.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "oesstandardderivatives.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "oestexturefloat.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "oestexturefloatlinear.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "oestexturehalffloat.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "oestexturehalffloatlinear.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webglactiveinfo.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webglbuffer.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webglcompressedtextures3tc.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webglcontextattributes.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webglcontextevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "webglcontexteventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webgldebugrendererinfo.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webgldepthtexture.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webglframebuffer.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webglobject.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webglprogram.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webglrenderbuffer.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webglrenderingcontext.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "webglshader.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webglshaderprecisionformat.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webgltexture.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "webgluniformlocation.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "draganddrop",
+        "Files": [
+            {
+                "Name": "datatransfer.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "datatransferitem.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "datatransferitemlist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "dragevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "notification",
+        "Files": [
+            {
+                "Name": "notification.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "notificationdirection.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "notificationoptions.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "notificationpermission.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "speech",
+        "Files": [
+            {
+                "Name": "speechsynthesis.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "speechsynthesisevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "speechsynthesiseventinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "speechsynthesisutterance.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "speechsynthesisvoice.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "webrtc",
+        "Files": [
+            {
+                "Name": "mediadeviceinfo.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediadevicekind.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcbundlepolicy.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcconfiguration.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcdegradationpreference.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcdtlsfingerprint.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcdtlsparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcdtlsrole.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcdtlstransport.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcdtlstransportstate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcdtlstransportstatechangedevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcdtmfsender.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcdtmftonechangeevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcdtmftonechangeeventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicecandidate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicecandidateattributes.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicecandidatecomplete.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicecandidatedictionary.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicecandidateinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicecandidatepair.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicecandidatepairchangedevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicecandidatepairstats.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicecandidatetype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicecomponent.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtciceconnectionstate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicegatherer.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicegathererevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicegathererstate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicegatheringstate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicegatheroptions.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicegatherpolicy.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtciceparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtciceprotocol.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicerole.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtciceserver.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicetcpcandidatetype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicetransport.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicetransportpolicy.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicetransportstate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcicetransportstatechangedevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcinboundrtpstreamstats.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcmediastreamtrackstats.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcofferoptions.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcoutboundrtpstreamstats.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcpeerconnection.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcpeerconnectioniceevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcpeerconnectioniceeventinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtcpfeedback.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtcpparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtpcapabilities.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtpcodeccapability.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtpcodecparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtpcontributingsource.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtpencodingparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtpfecparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtpheaderextension.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtpheaderextensionparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtpparameters.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtpreceiver.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtprtxparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtpsender.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtpstreamstats.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcrtpunhandled.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcsdptype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcsessiondescription.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcsessiondescriptioninit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcsignalingstate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcsrtpkeyparam.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcsrtpsdesparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcsrtpsdestransport.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcssrcconflictevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcssrcrange.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcstats.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcstatsicecandidatepairstate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcstatsicecandidatetype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcstatsprovider.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcstatsreport.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtcstatstype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "rtctransportstats.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "element",
+        "Files": [
+            {
+                "Name": "element.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "elementtraversal.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "mutation",
+        "Files": [
+            {
+                "Name": "mutationevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mutationobserver.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mutationobserverinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mutationrecord.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "worker",
+        "Files": [
+            {
+                "Name": "abstractworker.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "worker.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "xmldocument",
+        "Files": [
+            {
+                "Name": "xmldocument.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "file",
+        "Files": [
+            {
+                "Name": "blob.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "file.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "filelist.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "filereader.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "geolocation",
+        "Files": [
+            {
+                "Name": "coordinates.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "geolocation.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "position.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "positionerror.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "positionoptions.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "mouse",
+        "Files": [
+            {
+                "Name": "mouseevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mouseeventinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "navigation",
+        "Files": [
+            {
+                "Name": "confirmsitespecificexceptionsinformation.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "focusnavigationorigin.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "navigation.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "navigationcompletedevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "navigationevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "navigationeventwithreferrer.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "navigationreason.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "navigationtype.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "payment",
+        "Files": [
+            {
+                "Name": "paymentaddress.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "paymentcomplete.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "paymentcurrencyamount.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "paymentdetails.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "paymentdetailsmodifier.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "paymentitem.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "paymentmethoddata.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "paymentoptions.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "paymentrequest.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "paymentrequestupdateevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "paymentrequestupdateeventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "paymentresponse.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "paymentshippingoption.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "paymentshippingtype.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "performance",
+        "Files": [
+            {
+                "Name": "performance.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "performanceentry.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "performancemark.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "performancemeasure.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "performancenavigation.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "performancenavigationtiming.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "performanceresourcetiming.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "performancetiming.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "mediastreams",
+        "Files": [
+            {
+                "Name": "constrainbooleanparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "constraindomstringparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "constraindoublerange.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "constrainlongrange.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "constrainvideofacingmodeparameters.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "doublerange.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "longrange.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediadevices.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediastream.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediastreamconstraints.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediastreamerror.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediastreamerrorevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediastreamerroreventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediastreamevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediastreameventinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediastreamtrack.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediastreamtrackevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediastreamtrackeventinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "mediastreamtrackstate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediatrackcapabilities.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediatrackconstraints.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediatrackconstraintset.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediatracksettings.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "mediatracksupportedconstraints.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "videofacingmodeenum.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "serviceworker",
+        "Files": [
+            {
+                "Name": "getnotificationoptions.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "registrationoptions.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "serviceworker.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "serviceworkercontainer.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "serviceworkermessageevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "serviceworkermessageeventinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "serviceworkerregistration.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "serviceworkerstate.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "syncmanager.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "browser",
+        "Files": [
+            {
+                "Name": "barprop.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "canvas",
+        "Files": [
+            {
+                "Name": "canvasfillrule.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "canvasgradient.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "canvaspathmethods.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "canvaspattern.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "canvasrenderingcontext2d.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "imagedata.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "path2d.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "textmetrics.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "channelmessage",
+        "Files": [
+            {
+                "Name": "messagechannel.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "messageport.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "crypto",
+        "Files": [
+            {
+                "Name": "algorithm.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "crypto.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "cryptokey.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "cryptokeypair.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "keyalgorithm.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "randomsource.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "subtlecrypto.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "fetch",
+        "Files": [
+            {
+                "Name": "body.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "globalfetch.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "headers.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "referrerpolicy.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "request.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "requestcache.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "requestcredentials.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "requestdestination.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "requestinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "requestmode.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "requestredirect.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "requesttype.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "response.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "responseinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "responsetype.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "intersectionobserver",
+        "Files": [
+            {
+                "Name": "intersectionobserver.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "intersectionobserverentryinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "intersectionobserverinit.go",
+                "Confirmed": false,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "websocket",
+        "Files": [
+            {
+                "Name": "closeevent.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "closeeventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "websocket.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    },
+    {
+        "Name": "window",
+        "Files": [
+            {
+                "Name": "external.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "history.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "navigator.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "navigatorbeacon.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "navigatorconcurrenthardware.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "navigatorcontentutils.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "navigatorgeolocation.go",
+                "Confirmed": false,
+                "Merge": ""
+            },
+            {
+                "Name": "navigatorid.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "navigatoronline.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "navigatorstorageutils.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "navigatorusermedia.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "popstateeventinit.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "stylemedia.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "window.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "windowbase64.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "windowconsole.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "windowlocalstorage.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "windowsessionstorage.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "windowtimers.go",
+                "Confirmed": true,
+                "Merge": ""
+            },
+            {
+                "Name": "windowtimersextension.go",
+                "Confirmed": true,
+                "Merge": ""
+            }
+        ]
+    }
+]

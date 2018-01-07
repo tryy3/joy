@@ -1,6 +1,6 @@
 package webrtc
 
 type RTCDtlsParameters struct {
-	fingerprints	*[]*RTCDtlsFingerprint
-	role		*RTCDtlsRole
+	fingerprints *[]*RTCDtlsFingerprint
+	role         *RTCDtlsRole
 }

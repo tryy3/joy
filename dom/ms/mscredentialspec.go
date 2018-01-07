@@ -1,6 +1,6 @@
 package ms
 
 type MSCredentialSpec struct {
-	id	*string
-	kind	*MSCredentialType
+	id   *string
+	kind *MSCredentialType
 }

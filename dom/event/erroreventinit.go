@@ -3,9 +3,9 @@ package event
 type ErrorEventInit struct {
 	*EventInit
 
-	colno		*uint
-	err		*interface{}
-	filename	*string
-	lineno		*uint
-	message		*string
+	colno    *uint
+	err      *interface{}
+	filename *string
+	lineno   *uint
+	message  *string
 }

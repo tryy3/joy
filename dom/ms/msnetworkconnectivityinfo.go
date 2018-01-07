@@ -1,7 +1,7 @@
 package ms
 
 type MSNetworkConnectivityInfo struct {
-	linkspeed			*uint
-	networkConnectionDetails	*string
-	vpn				*bool
+	linkspeed                *uint
+	networkConnectionDetails *string
+	vpn                      *bool
 }

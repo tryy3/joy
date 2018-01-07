@@ -1,7 +1,11 @@
 package window
 
-import "github.com/matthewmueller/joy/dom/utils"
-
+// WindowConsole interface
+// js:"WindowConsole"
 type WindowConsole interface {
-	Console() (console *utils.Console)
+
+	// Console prop
+	// js:"console"
+	// jsrewrite:"$_.console"
+	Console() (console *Console)
 }

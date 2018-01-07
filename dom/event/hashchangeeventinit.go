@@ -3,6 +3,6 @@ package event
 type HashChangeEventInit struct {
 	*EventInit
 
-	newURL	*string
-	oldURL	*string
+	newURL *string
+	oldURL *string
 }

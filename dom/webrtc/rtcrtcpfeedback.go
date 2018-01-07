@@ -1,6 +1,6 @@
 package webrtc
 
 type RTCRtcpFeedback struct {
-	parameter	*string
-	kind		*string
+	parameter *string
+	kind      *string
 }

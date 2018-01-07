@@ -1,8 +1,8 @@
 package webrtc
 
 type RTCConfiguration struct {
-	bundlePolicy		*RTCBundlePolicy
-	iceServers		*[]*RTCIceServer
-	iceTransportPolicy	*RTCIceTransportPolicy
-	peerIdentity		*string
+	bundlePolicy       *RTCBundlePolicy
+	iceServers         *[]*RTCIceServer
+	iceTransportPolicy *RTCIceTransportPolicy
+	peerIdentity       *string
 }

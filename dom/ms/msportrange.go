@@ -1,6 +1,6 @@
 package ms
 
 type MSPortRange struct {
-	max	*uint8
-	min	*uint8
+	max *uint8
+	min *uint8
 }

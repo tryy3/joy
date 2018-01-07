@@ -1,41 +1,58 @@
 package cache
 
 import (
+	"github.com/matthewmueller/joy/dom/request"
+	"github.com/matthewmueller/joy/dom/response"
 	"github.com/matthewmueller/joy/macro"
-	"github.com/matthewmueller/joy/dom/fetch"
 )
 
+// Cache struct
+// js:"Cache,omit"
 type Cache struct {
 }
 
-func (*Cache) Add(request *fetch.Request) {
+// Add fn
+// js:"add"
+func (*Cache) Add(request *request.Request) {
 	macro.Rewrite("await $_.add($1)", request)
 }
 
-func (*Cache) AddAll(requests []*fetch.Request) {
+// AddAll fn
+// js:"addAll"
+func (*Cache) AddAll(requests []*request.Request) {
 	macro.Rewrite("await $_.addAll($1)", requests)
 }
 
-func (*Cache) Delete(request *fetch.Request, options *CacheQueryOptions) (b bool) {
+// Delete fn
+// js:"delete"
+func (*Cache) Delete(request *request.Request, options *CacheQueryOptions) (b bool) {
 	macro.Rewrite("await $_.delete($1, $2)", request, options)
 	return b
 }
 
-func (*Cache) Keys(request *fetch.Request, options *CacheQueryOptions) (r []*fetch.Request) {
+// Keys fn
+// js:"keys"
+func (*Cache) Keys(request *request.Request, options *CacheQueryOptions) (r []*request.Request) {
 	macro.Rewrite("await $_.keys($1, $2)", request, options)
 	return r
 }
 
-func (*Cache) Match(request *fetch.Request, options *CacheQueryOptions) (r *fetch.Response) {
+// Match fn
+// js:"match"
+func (*Cache) Match(request *request.Request, options *CacheQueryOptions) (r *response.Response) {
 	macro.Rewrite("await $_.match($1, $2)", request, options)
 	return r
 }
 
-func (*Cache) MatchAll(request *fetch.Request, options *CacheQueryOptions) (r []*fetch.Response) {
+// MatchAll fn
+// js:"matchAll"
+func (*Cache) MatchAll(request *request.Request, options *CacheQueryOptions) (r []*response.Response) {
 	macro.Rewrite("await $_.matchAll($1, $2)", request, options)
 	return r
 }
 
-func (*Cache) Put(request *fetch.Request, response *fetch.Response) {
+// Put fn
+// js:"put"
+func (*Cache) Put(request *request.Request, response *response.Response) {
 	macro.Rewrite("await $_.put($1, $2)", request, response)
 }

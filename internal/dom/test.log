@@ -1,0 +1,2441 @@
+csssupportsrule:
+	csssupportsrule
+audionode:
+	audionode
+	pannernode
+	mediaelementaudiosourcenode
+	convolvernode
+	dynamicscompressornode
+	iirfilternode
+	oscillatornode
+	analysernode
+	stereopannernode
+	channelmergernode
+	audiodestinationnode
+	scriptprocessornode
+	delaynode
+	gainnode
+	audiobuffersourcenode
+	audiocontext
+	waveshapernode
+	channelsplitternode
+	biquadfilternode
+	mediastreamaudiosourcenode
+rtcdtmftonechangeevent:
+	rtcdtmftonechangeevent
+msaudiosendpayload:
+	msaudiosendpayload
+htmlstyleelement:
+	htmlstyleelement
+svgunittypes:
+	svgunittypes
+svgfefuncaelement:
+	svgfefuncaelement
+htmlbuttonelement:
+	htmlbuttonelement
+msvideopayload:
+	msvideopayload
+mutationevent:
+	mutationevent
+paymentmethoddata:
+	paymentmethoddata
+rtcicecandidatepairstats:
+	rtcicecandidatepairstats
+path2d:
+	path2d
+msdelay:
+	msdelay
+pluginarray:
+	pluginarray
+oesstandardderivatives:
+	oesstandardderivatives
+svgpathsegcurvetoquadraticsmoothrel:
+	svgpathsegcurvetoquadraticsmoothrel
+svgtspanelement:
+	svgtspanelement
+rtcicegathererstate:
+	rtcicegathererstate
+htmlscriptelement:
+	htmlscriptelement
+cachestorage:
+	cachestorage
+rtcicecandidatepairchangedevent:
+	rtcicecandidatepairchangedevent
+webauthnextensions:
+	webauthnextensions
+focusnavigationevent:
+	focusnavigationevent
+rtcdtlsparameters:
+	rtcdtlsparameters
+svglineelement:
+	svglineelement
+intersectionobserver:
+	intersectionobserver
+	intersectionobservercallback
+rtcdtmfsender:
+	rtcdtmfsender
+webglbuffer:
+	webglbuffer
+htmlframeelement:
+	htmlframeelement
+compositioneventinit:
+	compositioneventinit
+rtcofferoptions:
+	rtcofferoptions
+htmlparagraphelement:
+	htmlparagraphelement
+foreachcallback:
+	foreachcallback
+serviceworkerstate:
+	serviceworkerstate
+offlineaudiocompletionevent:
+	offlineaudiocompletionevent
+rtcsrtpsdesparameters:
+	rtcsrtpsdesparameters
+svgfespotlightelement:
+	svgfespotlightelement
+biquadfiltertype:
+	biquadfiltertype
+msassertion:
+	msassertion
+rtcconfiguration:
+	rtcconfiguration
+worker:
+	worker
+svgrectelement:
+	svgrectelement
+cachequeryoptions:
+	cachequeryoptions
+pushencryptionkeyname:
+	pushencryptionkeyname
+mediaquery:
+	mediaquerylist
+	mediaquerylistlistener
+window:
+	serviceworkermessageeventinit
+	popstateevent
+	keyboardeventinit
+	csspagerule
+	mediastreamtrackeventinit
+	serviceworkerregistration
+	nodelist
+	speechsynthesis
+	processinginstruction
+	rng
+	globaleventhandlers
+	applicationcache
+	htmlcollection
+	messageport
+	speechsynthesisutterance
+	touchlist
+	text
+	mediastreamerrorevent
+	navigator
+	eventmodifierinit
+	hashchangeevent
+	idbdatabase
+	storageevent
+	stylesheetpagelist
+	documentfragment
+	pointereventinit
+	msrangecollection
+	stylesheetlist
+	msgestureevent
+	cdatasection
+	screen
+	msinputmethodcontext
+	notification
+	documenttype
+	mspointerevent
+	devicemotionevent
+	event
+	cssrulelist
+	domimplementation
+	messageeventinit
+	svgelement
+	idbobjectstore
+	touchevent
+	idbopendbrequest
+	documentevent
+	htmlelement
+	characterdata
+	svgsvgelement
+	xpathresult
+	abstractworker
+	console
+	serviceworkermessageevent
+	xpathexpression
+	mssitemodeevent
+	selection
+	idbfactory
+	nodeiterator
+	windowconsole
+	mediakeysystemaccess
+	window
+	mouseeventinit
+	keyboardevent
+	pagetransitionevent
+	progressevent
+	idbindex
+	element
+	serviceworkercontainer
+	idbtransaction
+	mediakeys
+	serviceworker
+	svggraphicselement
+	document
+	mediadevices
+	cssstylesheet
+	mouseevent
+	touch
+	nodeselector
+	cssstyledeclaration
+	dragevent
+	svgzoomevent
+	htmlheadelement
+	mediastreamtrackevent
+	deviceorientationevent
+	mediastream
+	eventlistener
+	focusevent
+	attr
+	messageevent
+	mediakeysession
+	stylesheet
+	idbenvironment
+	uieventinit
+	mediastreamtrack
+	beforeunloadevent
+	namednodemap
+	wheelevent
+	idbversionchangeevent
+	treewalker
+	cssrule
+	pointerevent
+	navigatorusermediasuccesscallback
+	uievent
+	navigatorusermedia
+	msmanipulationevent
+	comment
+	nodefilter
+	devicelightevent
+	idbrequest
+	node
+	focuseventinit
+	wheeleventinit
+	eventtarget
+	clipboardevent
+	elementtraversal
+audiocontextstate:
+	audiocontextstate
+htmlinputelement:
+	htmlinputelement
+svgpathsegarcabs:
+	svgpathsegarcabs
+notificationdirection:
+	notificationdirection
+idbkeyrange:
+	idbkeyrange
+msfidosignature:
+	msfidosignature
+htmlmediaelement:
+	htmlmediaelement
+mscredentialfilter:
+	mscredentialfilter
+rtcrtcpfeedback:
+	rtcrtcpfeedback
+geolocation:
+	geolocation
+rtctransportstats:
+	rtctransportstats
+htmldataelement:
+	htmldataelement
+svgtextelement:
+	svgtextelement
+msnetworkconnectivityinfo:
+	msnetworkconnectivityinfo
+positionerror:
+	positionerror
+htmlareaelement:
+	htmlareaelement
+stylemedia:
+	stylemedia
+paymentcomplete:
+	paymentcomplete
+htmlmodelement:
+	htmlmodelement
+svgpathseglinetoverticalrel:
+	svgpathseglinetoverticalrel
+transport:
+	transport
+webkitentriescallback:
+	webkitentriescallback
+msipaddressinfo:
+	msipaddressinfo
+framerequestcallback:
+	framerequestcallback
+deviceaccelerationdict:
+	deviceaccelerationdict
+deviceorientationeventinit:
+	deviceorientationeventinit
+periodicwave:
+	periodicwave
+rtcstatsicecandidatepairstate:
+	rtcstatsicecandidatepairstate
+htmllabelelement:
+	htmllabelelement
+htmldlistelement:
+	htmldlistelement
+videoplaybackquality:
+	videoplaybackquality
+angleinstancedarrays:
+	angleinstancedarrays
+svgpathseglinetohorizontalrel:
+	svgpathseglinetohorizontalrel
+htmlhtmlelement:
+	htmlhtmlelement
+coordinates:
+	coordinates
+location:
+	location
+webgldebugrendererinfo:
+	webgldebugrendererinfo
+rtcsdptype:
+	rtcsdptype
+barprop:
+	barprop
+htmltabledatacellelement:
+	htmltabledatacellelement
+svgsymbolelement:
+	svgsymbolelement
+audioparam:
+	audioparam
+htmltablecaptionelement:
+	htmltablecaptionelement
+audiolistener:
+	audiolistener
+htmlformelement:
+	htmlformelement
+webglshader:
+	webglshader
+msaudiosendsignal:
+	msaudiosendsignal
+periodicwaveconstraints:
+	periodicwaveconstraints
+doml2deprecatedsizeproperty:
+	doml2deprecatedsizeproperty
+svgfemergeelement:
+	svgfemergeelement
+requestcredentials:
+	requestcredentials
+svgswitchelement:
+	svgswitchelement
+trackeventinit:
+	trackeventinit
+htmlquoteelement:
+	htmlquoteelement
+svgfeconvolvematrixelement:
+	svgfeconvolvematrixelement
+webglcontexteventinit:
+	webglcontexteventinit
+htmlbodyelement:
+	htmlbodyelement
+clientrectlist:
+	clientrectlist
+cssstylerule:
+	cssstylerule
+errorevent:
+	errorevent
+pushmanager:
+	pushmanager
+mediasource:
+	mediasource
+oestexturefloatlinear:
+	oestexturefloatlinear
+domrectinit:
+	domrectinit
+channelcountmode:
+	channelcountmode
+htmltemplateelement:
+	htmltemplateelement
+svgfefuncgelement:
+	svgfefuncgelement
+msmediakeysession:
+	msmediakeysession
+storage:
+	storage
+msapp:
+	msapp
+idbobjectstoreparameters:
+	idbobjectstoreparameters
+msjitter:
+	msjitter
+htmllinkelement:
+	htmllinkelement
+performancemeasure:
+	performancemeasure
+mediakeystatus:
+	mediakeystatus
+extfragdepth:
+	extfragdepth
+voidfunction:
+	voidfunction
+intersectionobserverentry:
+	intersectionobserverentry
+mediakeymessageeventinit:
+	mediakeymessageeventinit
+svgangle:
+	svgangle
+rtcicecandidatepair:
+	rtcicecandidatepair
+svgfemergenodeelement:
+	svgfemergenodeelement
+rtcicecandidatecomplete:
+	rtcicecandidatecomplete
+svgpathsegcurvetoquadraticrel:
+	svgpathsegcurvetoquadraticrel
+rtcicegatherpolicy:
+	rtcicegatherpolicy
+msgesture:
+	msgesture
+performanceresourcetiming:
+	performanceresourcetiming
+mediakeysessiontype:
+	mediakeysessiontype
+requestmode:
+	requestmode
+svgrect:
+	svgrect
+decodeerrorcallback:
+	decodeerrorcallback
+rtcpeerconnection:
+	rtcpeerconnection
+rtcdtmftonechangeeventinit:
+	rtcdtmftonechangeeventinit
+texttrack:
+	texttrackcuelist
+	texttrackcue
+	texttrack
+msmediakeyneededevent:
+	msmediakeyneededevent
+webglactiveinfo:
+	webglactiveinfo
+htmlframesetelement:
+	htmlframesetelement
+external:
+	external
+rtcicecomponent:
+	rtcicecomponent
+oeselementindexuint:
+	oeselementindexuint
+navigatorcontentutils:
+	navigatorcontentutils
+deviceacceleration:
+	deviceacceleration
+rtcrtpcodeccapability:
+	rtcrtpcodeccapability
+cssconditionrule:
+	cssconditionrule
+htmlfontelement:
+	htmlfontelement
+msfidocredentialassertion:
+	msfidocredentialassertion
+htmlunknownelement:
+	htmlunknownelement
+htmlhrelement:
+	htmlhrelement
+windowbase64:
+	windowbase64
+svgpathsegcurvetocubicabs:
+	svgpathsegcurvetocubicabs
+webglobject:
+	webglobject
+svgmetadataelement:
+	svgmetadataelement
+canvasfillrule:
+	canvasfillrule
+htmlaudioelement:
+	htmlaudioelement
+msicewarningflags:
+	msicewarningflags
+msstatstype:
+	msstatstype
+scopedcredentialparameters:
+	scopedcredentialparameters
+htmlformcontrolscollection:
+	htmlformcontrolscollection
+cryptokeypair:
+	cryptokeypair
+randomsource:
+	randomsource
+rtcsessiondescriptioninit:
+	rtcsessiondescriptioninit
+webkitdirectoryreader:
+	webkitdirectoryreader
+mediastreamconstraints:
+	mediastreamconstraints
+svguseelement:
+	svgelementinstancelist
+	svguseelement
+	svgelementinstance
+csskeyframesrule:
+	csskeyframesrule
+windowlocalstorage:
+	windowlocalstorage
+assertionoptions:
+	assertionoptions
+scopedcredentialtype:
+	scopedcredentialtype
+mediakeymessageevent:
+	mediakeymessageevent
+paymentdetailsmodifier:
+	paymentdetailsmodifier
+customeventinit:
+	customeventinit
+videofacingmodeenum:
+	videofacingmodeenum
+filelist:
+	filelist
+svganimatednumberlist:
+	svganimatednumberlist
+webgluniformlocation:
+	webgluniformlocation
+svgdescelement:
+	svgdescelement
+paymentaddress:
+	paymentaddress
+svgtests:
+	svgtests
+mswebviewpermissiontype:
+	mswebviewpermissiontype
+rtcicetransportstate:
+	rtcicetransportstate
+mediastreameventinit:
+	mediastreameventinit
+mediatrackconstraintset:
+	mediatrackconstraintset
+medialist:
+	medialist
+htmlparamelement:
+	htmlparamelement
+msnavigatordonottrack:
+	msnavigatordonottrack
+domerror:
+	domerror
+mscredentialtype:
+	mscredentialtype
+mstransporttype:
+	mstransporttype
+keyalgorithm:
+	keyalgorithm
+constraindomstringparameters:
+	constraindomstringparameters
+positionerrorcallback:
+	positionerrorcallback
+svganimatedstring:
+	svganimatedstring
+oversampletype:
+	oversampletype
+mediaerror:
+	mediaerror
+texttracklist:
+	texttracklist
+svgpathsegcurvetocubicsmoothabs:
+	svgpathsegcurvetocubicsmoothabs
+htmldirectoryelement:
+	htmldirectoryelement
+msdescription:
+	msdescription
+intersectionobserverentryinit:
+	intersectionobserverentryinit
+msaudiorecvsignal:
+	msaudiorecvsignal
+cssimportrule:
+	cssimportrule
+gamepadevent:
+	gamepadevent
+svgforeignobjectelement:
+	svgforeignobjectelement
+timeranges:
+	timeranges
+rtcoutboundrtpstreamstats:
+	rtcoutboundrtpstreamstats
+extensionscriptapis:
+	extensionscriptapis
+msiceaddrtype:
+	msiceaddrtype
+datacue:
+	datacue
+xmlhttprequest:
+	xmlhttprequest
+svgfeblendelement:
+	svgfeblendelement
+requestredirect:
+	requestredirect
+cryptokey:
+	cryptokey
+svgnumber:
+	svgnumber
+svgfefuncbelement:
+	svgfefuncbelement
+htmlsourceelement:
+	htmlsourceelement
+svgfemorphologyelement:
+	svgfemorphologyelement
+hashchangeeventinit:
+	hashchangeeventinit
+webgldepthtexture:
+	webgldepthtexture
+webauthentication:
+	webauthentication
+doml2deprecatedcolorproperty:
+	doml2deprecatedcolorproperty
+paymentrequest:
+	paymentrequest
+requestinit:
+	requestinit
+mediatracksettings:
+	mediatracksettings
+rtcdtlstransportstate:
+	rtcdtlstransportstate
+functionstringcallback:
+	functionstringcallback
+rtcicetransportstatechangedevent:
+	rtcicetransportstatechangedevent
+paymentrequestupdateevent:
+	paymentrequestupdateevent
+webkitfileentry:
+	webkitfileentry
+msfilesaver:
+	msfilesaver
+constrainlongrange:
+	constrainlongrange
+rtcmediastreamtrackstats:
+	rtcmediastreamtrackstats
+storeexceptionsinformation:
+	storeexceptionsinformation
+mutationrecord:
+	mutationrecord
+mediastreamerroreventinit:
+	mediastreamerroreventinit
+svganimatedlengthlist:
+	svganimatedlengthlist
+msrelayaddress:
+	msrelayaddress
+rtcicetransportpolicy:
+	rtcicetransportpolicy
+htmldivelement:
+	htmldivelement
+htmlolistelement:
+	htmlolistelement
+paymentcurrencyamount:
+	paymentcurrencyamount
+webglcontextevent:
+	webglcontextevent
+algorithm:
+	algorithm
+msnetworkinterfacetype:
+	msnetworkinterfacetype
+rtciceconnectionstate:
+	rtciceconnectionstate
+rtcrtpunhandled:
+	rtcrtpunhandled
+rtciceprotocol:
+	rtciceprotocol
+htmltitleelement:
+	htmltitleelement
+performancemark:
+	performancemark
+erroreventhandler:
+	erroreventhandler
+domstringmap:
+	domstringmap
+rtcrtpheaderextension:
+	rtcrtpheaderextension
+msmediakeyerror:
+	msmediakeyerror
+visibilitystate:
+	visibilitystate
+htmlfieldsetelement:
+	htmlfieldsetelement
+scopedcredential:
+	scopedcredential
+htmliframeelement:
+	htmliframeelement
+rtcpeerconnectioniceeventinit:
+	rtcpeerconnectioniceeventinit
+svgpathseglinetohorizontalabs:
+	svgpathseglinetohorizontalabs
+svgscriptelement:
+	svgscriptelement
+msnetwork:
+	msnetwork
+mszoomtooptions:
+	mszoomtooptions
+clientrect:
+	clientrect
+svgpathsegcurvetoquadraticabs:
+	svgpathsegcurvetoquadraticabs
+webglframebuffer:
+	webglframebuffer
+msexecatpriorityfunctioncallback:
+	msexecatpriorityfunctioncallback
+mediakeysrequirement:
+	mediakeysrequirement
+mutationobserver:
+	mutationcallback
+	mutationobserver
+svgnumberlist:
+	svgnumberlist
+speechsynthesisevent:
+	speechsynthesisevent
+svgpathsegarcrel:
+	svgpathsegarcrel
+htmltextareaelement:
+	htmltextareaelement
+svgviewelement:
+	svgviewelement
+xpathevaluator:
+	xpathevaluator
+rtcicerole:
+	rtcicerole
+mimetypearray:
+	mimetypearray
+devicemotioneventinit:
+	devicemotioneventinit
+headers:
+	headers
+svgcircleelement:
+	svgcircleelement
+htmlulistelement:
+	htmlulistelement
+mediatrackcapabilities:
+	mediatrackcapabilities
+trackevent:
+	trackevent
+svgellipseelement:
+	svgellipseelement
+svgpointlist:
+	svgpointlist
+htmllielement:
+	htmllielement
+eventinit:
+	eventinit
+mswebviewsettings:
+	mswebviewsettings
+cssnamespacerule:
+	cssnamespacerule
+paymentitem:
+	paymentitem
+msaudiolocalclientevent:
+	msaudiolocalclientevent
+globalfetch:
+	globalfetch
+msconnectivity:
+	msconnectivity
+htmltableheadercellelement:
+	htmltableheadercellelement
+navigatorid:
+	navigatorid
+svgtransform:
+	svgtransform
+svgtitleelement:
+	svgtitleelement
+expandgranularity:
+	expandgranularity
+svganimatedlength:
+	svganimatedlength
+msunsafefunctioncallback:
+	msunsafefunctioncallback
+domparser:
+	domparser
+rtcsessiondescriptioncallback:
+	rtcsessiondescriptioncallback
+htmlmeterelement:
+	htmlmeterelement
+listeningstate:
+	listeningstate
+panningmodeltype:
+	panningmodeltype
+svgpathsegmovetorel:
+	svgpathsegmovetorel
+htmllegendelement:
+	htmllegendelement
+htmlmapelement:
+	htmlmapelement
+perfwidgetexternal:
+	perfwidgetexternal
+scriptnotifyevent:
+	scriptnotifyevent
+mssignatureparameters:
+	mssignatureparameters
+msoutboundnetwork:
+	msoutboundnetwork
+popstateeventinit:
+	popstateeventinit
+webauthnassertion:
+	webauthnassertion
+mutationobserverinit:
+	mutationobserverinit
+pushsubscriptionoptions:
+	pushsubscriptionoptions
+rtcicecandidate:
+	rtcicecandidate
+requesttype:
+	requesttype
+htmltablerowelement:
+	htmltablerowelement
+svgfittoviewbox:
+	svgfittoviewbox
+navigationcompletedevent:
+	navigationcompletedevent
+textmetrics:
+	textmetrics
+textevent:
+	textevent
+rtcsignalingstate:
+	rtcsignalingstate
+xmlserializer:
+	xmlserializer
+rtcdtlsrole:
+	rtcdtlsrole
+permissionrequestedevent:
+	permissionrequestedevent
+svgfecompositeelement:
+	svgfecompositeelement
+webglcontextattributes:
+	webglcontextattributes
+rtcstatsprovider:
+	rtcstatsprovider
+rtcicecandidatedictionary:
+	rtcicecandidatedictionary
+htmlbrelement:
+	htmlbrelement
+htmlmenuelement:
+	htmlmenuelement
+svgpathsegcurvetoquadraticsmoothabs:
+	svgpathsegcurvetoquadraticsmoothabs
+htmlmetaelement:
+	htmlmetaelement
+svgpathsegclosepath:
+	svgpathsegclosepath
+avtrack:
+	audiotrack
+	sourcebuffer
+	videotracklist
+	audiotracklist
+	videotrack
+svgfedisplacementmapelement:
+	svgfedisplacementmapelement
+svgpathseglinetoabs:
+	svgpathseglinetoabs
+performancetiming:
+	performancetiming
+scopedcredentialoptions:
+	scopedcredentialoptions
+gamepadeventinit:
+	gamepadeventinit
+navigatorconcurrenthardware:
+	navigatorconcurrenthardware
+websocket:
+	websocket
+rtcbundlepolicy:
+	rtcbundlepolicy
+rtcicegatheringstate:
+	rtcicegatheringstate
+gamepadbutton:
+	gamepadbutton
+registrationoptions:
+	registrationoptions
+longrunningscriptdetectedevent:
+	longrunningscriptdetectedevent
+svgpathseglist:
+	svgpathseglist
+rtcpeerconnectioniceevent:
+	rtcpeerconnectioniceevent
+overflowevent:
+	overflowevent
+paymentshippingtype:
+	paymentshippingtype
+mimetype:
+	plugin
+	mimetype
+msmediakeymessageevent:
+	msmediakeymessageevent
+htmltablecellelement:
+	htmltablecellelement
+idbrequestreadystate:
+	idbrequestreadystate
+mscredentials:
+	mscredentials
+htmlheadingelement:
+	htmlheadingelement
+transitionevent:
+	transitionevent
+svgdefselement:
+	svgdefselement
+history:
+	history
+rtcicecandidateinit:
+	rtcicecandidateinit
+gamepad:
+	gamepad
+idbcursor:
+	idbcursor
+speechsynthesisvoice:
+	speechsynthesisvoice
+performancenavigation:
+	performancenavigation
+crypto:
+	crypto
+svgtextcontentelement:
+	svgtextcontentelement
+mslaunchuricallback:
+	mslaunchuricallback
+rtcrtpheaderextensionparameters:
+	rtcrtpheaderextensionparameters
+storesitespecificexceptionsinformation:
+	storesitespecificexceptionsinformation
+paymentoptions:
+	paymentoptions
+htmldatalistelement:
+	htmldatalistelement
+svgstyleelement:
+	svgstyleelement
+htmltablesectionelement:
+	htmltablesectionelement
+msfidocredentialparameters:
+	msfidocredentialparameters
+navigationtype:
+	navigationtype
+idbcursordirection:
+	idbcursordirection
+css:
+	css
+svganimatedenumeration:
+	svganimatedenumeration
+channelinterpretation:
+	channelinterpretation
+mediadevicekind:
+	mediadevicekind
+body:
+	body
+navigationeventwithreferrer:
+	navigationeventwithreferrer
+svgfediffuselightingelement:
+	svgfediffuselightingelement
+mspacketloss:
+	mspacketloss
+filereader:
+	filereader
+msappasyncoperation:
+	msappasyncoperation
+requestdestination:
+	requestdestination
+htmltrackelement:
+	htmltrackelement
+mscredentialspec:
+	mscredentialspec
+webkitfilesytem:
+	webkitentry
+	webkitdirectoryentry
+	webkitfilesystem
+svgmatrix:
+	svgmatrix
+paymentdetails:
+	paymentdetails
+webglprogram:
+	webglprogram
+rtcrtprtxparameters:
+	rtcrtprtxparameters
+account:
+	account
+audioprocessingevent:
+	audioprocessingevent
+htmloptionscollection:
+	htmloptionscollection
+erroreventinit:
+	erroreventinit
+svgpatternelement:
+	svgpatternelement
+rtcpeerconnectionerrorcallback:
+	rtcpeerconnectionerrorcallback
+rtcicegatheroptions:
+	rtcicegatheroptions
+doublerange:
+	doublerange
+rtcstats:
+	rtcstats
+svgfecomponenttransferelement:
+	svgfecomponenttransferelement
+xmldocument:
+	xmldocument
+mswebviewelement:
+	mshtmlwebviewelement
+	mswebviewasyncoperation
+mslocalclienteventbase:
+	mslocalclienteventbase
+msstream:
+	msstream
+cssmediarule:
+	cssmediarule
+mediastreamerror:
+	mediastreamerror
+devicerotationrate:
+	devicerotationrate
+file:
+	file
+oestexturehalffloat:
+	oestexturehalffloat
+readablestream:
+	readablestream
+xpathnsresolver:
+	xpathnsresolver
+xmlhttprequesteventtarget:
+	xmlhttprequesteventtarget
+svgtextpathelement:
+	svgtextpathelement
+canvasgradient:
+	canvasgradient
+svgpathsegcurvetocubicrel:
+	svgpathsegcurvetocubicrel
+paymentresponse:
+	paymentresponse
+confirmsitespecificexceptionsinformation:
+	confirmsitespecificexceptionsinformation
+mediakeysystemconfiguration:
+	mediakeysystemconfiguration
+htmlprogresselement:
+	htmlprogresselement
+msutilization:
+	msutilization
+svgfecolormatrixelement:
+	svgfecolormatrixelement
+svgpreserveaspectratio:
+	svgpreserveaspectratio
+rtcicecandidateattributes:
+	rtcicecandidateattributes
+oestexturehalffloatlinear:
+	oestexturehalffloatlinear
+domstringlist:
+	domstringlist
+msvideosendpayload:
+	msvideosendpayload
+rtcrtpencodingparameters:
+	rtcrtpencodingparameters
+rtcrtpreceiver:
+	rtcrtpreceiver
+svganimatedtransformlist:
+	svganimatedtransformlist
+svgpathseg:
+	svgpathseg
+decodesuccesscallback:
+	decodesuccesscallback
+positioncallback:
+	positioncallback
+svglengthlist:
+	svglengthlist
+linkstyle:
+	linkstyle
+constrainvideofacingmodeparameters:
+	constrainvideofacingmodeparameters
+rtcicegatherer:
+	rtcicegatherer
+rtcicetcpcandidatetype:
+	rtcicetcpcandidatetype
+svgcomponenttransferfunctionelement:
+	svgcomponenttransferfunctionelement
+mediatrackconstraints:
+	mediatrackconstraints
+svgaelement:
+	svgaelement
+appendmode:
+	appendmode
+rtcdtlsfingerprint:
+	rtcdtlsfingerprint
+rtciceserver:
+	rtciceserver
+htmlpreelement:
+	htmlpreelement
+subtlecrypto:
+	subtlecrypto
+domtokenlist:
+	domtokenlist
+webkitcssmatrix:
+	webkitcssmatrix
+svgstringlist:
+	svgstringlist
+syncmanager:
+	syncmanager
+datatransferitem:
+	datatransferitem
+svgmaskelement:
+	svgmaskelement
+navigatorstorageutils:
+	navigatorstorageutils
+offlineaudiocontext:
+	offlineaudiocontext
+htmltablecolelement:
+	htmltablecolelement
+msvideoresolutiondistribution:
+	msvideoresolutiondistribution
+windowtimersextension:
+	windowtimersextension
+svganimatedboolean:
+	svganimatedboolean
+svgmarkerelement:
+	svgmarkerelement
+mediakeystatusmap:
+	mediakeystatusmap
+svgclippathelement:
+	svgclippathelement
+svgpathsegmovetoabs:
+	svgpathsegmovetoabs
+htmltimeelement:
+	htmltimeelement
+closeeventinit:
+	closeeventinit
+htmlimageelement:
+	htmlimageelement
+sourcebufferlist:
+	sourcebufferlist
+getsvgdocument:
+	getsvgdocument
+svgfeoffsetelement:
+	svgfeoffsetelement
+xsltprocessor:
+	xsltprocessor
+responseinit:
+	responseinit
+msaudiorecvpayload:
+	msaudiorecvpayload
+msbasereader:
+	msbasereader
+svganimatedpoints:
+	svganimatedpoints
+svgfeturbulenceelement:
+	svgfeturbulenceelement
+devicerotationratedict:
+	devicerotationratedict
+unviewablecontentidentifiedevent:
+	unviewablecontentidentifiedevent
+url:
+	url
+webglrenderingcontext:
+	webglrenderingcontext
+svganimatedpreserveaspectratio:
+	svganimatedpreserveaspectratio
+cache:
+	cache
+svgfespecularlightingelement:
+	svgfespecularlightingelement
+mediakeysystemmediacapability:
+	mediakeysystemmediacapability
+rtcrtpcodecparameters:
+	rtcrtpcodecparameters
+svganimatedrect:
+	svganimatedrect
+animationevent:
+	animationevent
+navigatorbeacon:
+	navigatorbeacon
+msaccountinfo:
+	msaccountinfo
+focusnavigationorigin:
+	focusnavigationorigin
+windowsessionstorage:
+	windowsessionstorage
+rtcicetransport:
+	rtcicetransport
+svgfilterelement:
+	svgfilterelement
+constrainbooleanparameters:
+	constrainbooleanparameters
+mstransportdiagnosticsstats:
+	mstransportdiagnosticsstats
+objecturloptions:
+	objecturloptions
+mediaencryptedevent:
+	mediaencryptedevent
+svgpathelement:
+	svgpathelement
+svgstopelement:
+	svgstopelement
+navigatorgeolocation:
+	navigatorgeolocation
+msicetype:
+	msicetype
+msstreamreader:
+	msstreamreader
+audiobuffer:
+	audiobuffer
+rtcstatsreport:
+	rtcstatsreport
+gamepadinputemulationtype:
+	gamepadinputemulationtype
+rtcrtpparameters:
+	rtcrtpparameters
+rtcicegathererevent:
+	rtcicegathererevent
+svgfeimageelement:
+	svgfeimageelement
+rtcdtlstransportstatechangedevent:
+	rtcdtlstransportstatechangedevent
+childnode:
+	childnode
+rtcsessiondescription:
+	rtcsessiondescription
+mediaencryptedeventinit:
+	mediaencryptedeventinit
+htmloptionelement:
+	htmloptionelement
+pushsubscriptionoptionsinit:
+	pushsubscriptionoptionsinit
+htmlvideoelement:
+	htmlvideoelement
+svgtransformlist:
+	svgtransformlist
+idbcursorwithvalue:
+	idbcursorwithvalue
+oscillatortype:
+	oscillatortype
+navigationreason:
+	navigationreason
+svgtextpositioningelement:
+	svgtextpositioningelement
+performancenavigationtiming:
+	performancenavigationtiming
+mediatracksupportedconstraints:
+	mediatracksupportedconstraints
+position:
+	position
+datatransferitemlist:
+	datatransferitemlist
+cssfontfacerule:
+	cssfontfacerule
+msportrange:
+	msportrange
+rtciceparameters:
+	rtciceparameters
+rtcsrtpsdestransport:
+	rtcsrtpsdestransport
+listeningstatechangedevent:
+	listeningstatechangedevent
+scopedcredentialinfo:
+	scopedcredentialinfo
+svgfilterprimitivestandardattributes:
+	svgfilterprimitivestandardattributes
+rtcrtpcontributingsource:
+	rtcrtpcontributingsource
+deferredpermissionrequest:
+	deferredpermissionrequest
+pushpermissionstate:
+	pushpermissionstate
+performanceentry:
+	performanceentry
+msfidosignatureassertion:
+	msfidosignatureassertion
+svgfegaussianblurelement:
+	svgfegaussianblurelement
+rtcrtpfecparameters:
+	rtcrtpfecparameters
+rtcinboundrtpstreamstats:
+	rtcinboundrtpstreamstats
+svgfedistantlightelement:
+	svgfedistantlightelement
+distancemodeltype:
+	distancemodeltype
+svgfepointlightelement:
+	svgfepointlightelement
+getnotificationoptions:
+	getnotificationoptions
+cssgroupingrule:
+	cssgroupingrule
+rtcstatstype:
+	rtcstatstype
+svglength:
+	svglength
+msblobbuilder:
+	msblobbuilder
+webkitrtcpeerconnection:
+	webkitrtcpeerconnection
+htmlbasefontelement:
+	htmlbasefontelement
+windowtimers:
+	windowtimers
+htmlbaseelement:
+	htmlbaseelement
+imagedata:
+	imagedata
+svggradientelement:
+	svggradientelement
+constraindoublerange:
+	constraindoublerange
+exttexturefilteranisotropic:
+	exttexturefilteranisotropic
+transitioneventinit:
+	transitioneventinit
+rtcsrtpkeyparam:
+	rtcsrtpkeyparam
+rtcicecandidatetype:
+	rtcicecandidatetype
+mswebviewpermissionstate:
+	mswebviewpermissionstate
+intersectionobserverinit:
+	intersectionobserverinit
+canvaspattern:
+	canvaspattern
+webglshaderprecisionformat:
+	webglshaderprecisionformat
+xmlhttprequestresponsetype:
+	xmlhttprequestresponsetype
+pushsubscription:
+	pushsubscription
+webkitpoint:
+	webkitpoint
+closeevent:
+	closeevent
+oestexturefloat:
+	oestexturefloat
+notificationoptions:
+	notificationoptions
+htmlanchorelement:
+	htmlanchorelement
+svgpoint:
+	svgpoint
+paymentshippingoption:
+	paymentshippingoption
+svgpathseglinetorel:
+	svgpathseglinetorel
+webglrenderbuffer:
+	webglrenderbuffer
+formdata:
+	formdata
+svgfefloodelement:
+	svgfefloodelement
+blob:
+	blob
+canvasrenderingcontext2d:
+	canvasrenderingcontext2d
+svgpolygonelement:
+	svgpolygonelement
+longrange:
+	longrange
+svgfefuncrelement:
+	svgfefuncrelement
+navigatoronline:
+	navigatoronline
+svgurireference:
+	svgurireference
+notificationpermissioncallback:
+	notificationpermissioncallback
+svgimageelement:
+	svgimageelement
+csskeyframerule:
+	csskeyframerule
+navigatorusermediaerrorcallback:
+	navigatorusermediaerrorcallback
+rtcdtlstransport:
+	rtcdtlstransport
+rtcdegradationpreference:
+	rtcdegradationpreference
+animationeventinit:
+	animationeventinit
+compositionevent:
+	compositionevent
+webglcompressedtextures3tc:
+	webglcompressedtextures3tc
+msvideorecvpayload:
+	msvideorecvpayload
+svglineargradientelement:
+	svglineargradientelement
+clientdata:
+	clientdata
+focusnavigationeventinit:
+	focusnavigationeventinit
+htmltableelement:
+	htmltableelement
+htmlspanelement:
+	htmlspanelement
+rtcstatsicecandidatetype:
+	rtcstatsicecandidatetype
+msmediakeys:
+	msmediakeys
+svganimatedinteger:
+	svganimatedinteger
+htmldocument:
+	htmldocument
+htmlpictureelement:
+	htmlpictureelement
+domsettabletokenlist:
+	domsettabletokenlist
+svgzoomandpan:
+	svgzoomandpan
+svgpolylineelement:
+	svgpolylineelement
+htmlappletelement:
+	htmlappletelement
+response:
+	response
+webgltexture:
+	webgltexture
+rtcrtpstreamstats:
+	rtcrtpstreamstats
+datatransfer:
+	datatransfer
+readablestreamreader:
+	readablestreamreader
+htmloptgroupelement:
+	htmloptgroupelement
+progresseventinit:
+	progresseventinit
+speechsynthesiseventinit:
+	speechsynthesiseventinit
+htmlselectelement:
+	htmlselectelement
+xmlhttprequestupload:
+	xmlhttprequestupload
+mediakeymessagetype:
+	mediakeymessagetype
+rtcssrcconflictevent:
+	rtcssrcconflictevent
+rtcrtpcapabilities:
+	rtcrtpcapabilities
+svgpathsegcurvetocubicsmoothrel:
+	svgpathsegcurvetocubicsmoothrel
+paymentrequestupdateeventinit:
+	paymentrequestupdateeventinit
+mscredentialparameters:
+	mscredentialparameters
+mspayloadbase:
+	mspayloadbase
+htmlallcollection:
+	htmlallcollection
+requestcache:
+	requestcache
+svggelement:
+	svggelement
+performance:
+	performance
+webkitfilecallback:
+	webkitfilecallback
+rtcstatscallback:
+	rtcstatscallback
+customevent:
+	customevent
+scopedcredentialdescriptor:
+	scopedcredentialdescriptor
+positionoptions:
+	positionoptions
+mediastreamtrackstate:
+	mediastreamtrackstate
+request:
+	request
+htmltablealignment:
+	htmltablealignment
+svgpathseglinetoverticalabs:
+	svgpathseglinetoverticalabs
+devicelighteventinit:
+	devicelighteventinit
+htmlmarqueeelement:
+	htmlmarqueeelement
+mediastreamevent:
+	mediastreamevent
+canvaspathmethods:
+	canvaspathmethods
+messagechannel:
+	messagechannel
+mediadeviceinfo:
+	mediadeviceinfo
+responsetype:
+	responsetype
+svganimatednumber:
+	svganimatednumber
+rtcrtcpparameters:
+	rtcrtcpparameters
+htmlcanvaselement:
+	htmlcanvaselement
+htmlembedelement:
+	htmlembedelement
+exceptioninformation:
+	exceptioninformation
+idbtransactionmode:
+	idbtransactionmode
+htmlobjectelement:
+	htmlobjectelement
+htmloutputelement:
+	htmloutputelement
+notificationpermission:
+	notificationpermission
+navigationevent:
+	navigationevent
+rtcrtpsender:
+	rtcrtpsender
+idbindexparameters:
+	idbindexparameters
+permissionrequest:
+	permissionrequest
+msgraphicstrust:
+	msgraphicstrust
+referrerpolicy:
+	referrerpolicy
+webkiterrorcallback:
+	webkiterrorcallback
+svgradialgradientelement:
+	svgradialgradientelement
+validitystate:
+	validitystate
+rtcssrcrange:
+	rtcssrcrange
+svganimatedangle:
+	svganimatedangle
+domexception:
+	domexception
+htmlareascollection:
+	htmlareascollection
+svgfetileelement:
+	svgfetileelement
+---------------------------
+svgpoint:
+	svgpoint
+msunsafefunctioncallback:
+	msunsafefunctioncallback
+functionstringcallback:
+	functionstringcallback
+rtcicetransport:
+	rtcicetransport
+request:
+	request
+msmediakeyneededevent:
+	msmediakeyneededevent
+intersectionobserver:
+	intersectionobservercallback
+	intersectionobserverentryinit
+	intersectionobserver
+webkit:
+	webkitfileentry
+	webkitpoint
+	webkitrtcpeerconnection
+	webkitdirectoryreader
+mscredentialfilter:
+	mscredentialfilter
+texttrack:
+	texttrackcuelist
+	texttrackcue
+	texttrack
+svgfittoviewbox:
+	svgfittoviewbox
+css:
+	cssmediarule
+	csssupportsrule
+	css
+	medialist
+	cssnamespacerule
+	cssimportrule
+	cssgroupingrule
+	cssconditionrule
+	csskeyframesrule
+	cssstylerule
+	cssfontfacerule
+	transitionevent
+	linkstyle
+	transitioneventinit
+blob:
+	blob
+event:
+	customevent
+	erroreventinit
+	hashchangeeventinit
+	customeventinit
+	eventinit
+	errorevent
+mslaunchuricallback:
+	mslaunchuricallback
+rtcicecandidatepair:
+	rtcicecandidatepair
+getsvgdocument:
+	getsvgdocument
+rtcsessiondescriptioncallback:
+	rtcsessiondescriptioncallback
+permissions:
+	permissionrequestedevent
+	deferredpermissionrequest
+	permissionrequest
+mutationobserver:
+	mutationcallback
+	mutationobserver
+avtrack:
+	audiotrack
+	sourcebuffer
+	videotracklist
+	audiotracklist
+	videotrack
+response:
+	response
+mediastreameventinit:
+	mediastreameventinit
+mimetype:
+	plugin
+	mimetype
+utils:
+	mediaerror
+	mimetypearray
+	validitystate
+	storesitespecificexceptionsinformation
+	xpathnsresolver
+	exceptioninformation
+	trackeventinit
+	progresseventinit
+	intersectionobserverentry
+	storeexceptionsinformation
+	pluginarray
+	xpathevaluator
+	xsltprocessor
+	sourcebufferlist
+	transport
+	perfwidgetexternal
+rtcrtpsender:
+	rtcrtpsender
+notification:
+	notificationoptions
+	notificationdirection
+	notificationpermission
+webvvt:
+	datacue
+idbcursor:
+	idbcursor
+framerequestcallback:
+	framerequestcallback
+svganimatednumberlist:
+	svganimatednumberlist
+gamepad:
+	gamepad
+	gamepadinputemulationtype
+	gamepadevent
+	gamepadbutton
+svguseelement:
+	svgelementinstancelist
+	svguseelement
+	svgelementinstance
+geolocation:
+	positionoptions
+	position
+	geolocation
+	positionerror
+	coordinates
+notificationpermissioncallback:
+	notificationpermissioncallback
+payment:
+	paymentrequestupdateevent
+	paymentcurrencyamount
+	paymentmethoddata
+	paymentoptions
+	paymentrequest
+	paymentshippingtype
+	paymentrequestupdateeventinit
+	paymentcomplete
+	paymentdetails
+	paymentshippingoption
+	paymentitem
+	paymentaddress
+	paymentresponse
+	paymentdetailsmodifier
+mediasource:
+	mediasource
+	videoplaybackquality
+	appendmode
+audionode:
+	audiocontext
+	waveshapernode
+	channelsplitternode
+	biquadfilternode
+	mediastreamaudiosourcenode
+	audionode
+	pannernode
+	mediaelementaudiosourcenode
+	convolvernode
+	dynamicscompressornode
+	iirfilternode
+	oscillatornode
+	analysernode
+	stereopannernode
+	channelmergernode
+	scriptprocessornode
+	audiodestinationnode
+	delaynode
+	gainnode
+	audiobuffersourcenode
+compositioneventinit:
+	compositioneventinit
+mslocalclienteventbase:
+	mslocalclienteventbase
+worker:
+	worker
+xmldocument:
+	xmldocument
+trackevent:
+	trackevent
+svgmatrix:
+	svgmatrix
+path2d:
+	path2d
+rtcstatscallback:
+	rtcstatscallback
+dom:
+	svglineargradientelement
+	svgradialgradientelement
+	svgfefuncbelement
+	svggelement
+	svgfecomponenttransferelement
+	svgfefuncgelement
+	svgmaskelement
+	svgstringlist
+	svgfespotlightelement
+	svgpathsegclosepath
+	listeningstatechangedevent
+	svganimatedrect
+	svgfedistantlightelement
+	doml2deprecatedcolorproperty
+	domparser
+	svgforeignobjectelement
+	svgclippathelement
+	svgpathsegcurvetocubicsmoothabs
+	svgpathsegcurvetoquadraticsmoothrel
+	svganimatedstring
+	overflowevent
+	domstringmap
+	svgcircleelement
+	svgfetileelement
+	svgfefuncaelement
+	svgtextpathelement
+	svgtspanelement
+	svgdescelement
+	svgswitchelement
+	clientrect
+	domerror
+	svgfecompositeelement
+	svgstyleelement
+	svgtitleelement
+	svgfediffuselightingelement
+	svgfefuncrelement
+	svgpathseglinetoverticalabs
+	svgsymbolelement
+	svgpolygonelement
+	svgtextcontentelement
+	svgpathsegcurvetocubicsmoothrel
+	svgfemorphologyelement
+	svgpathsegarcrel
+	focusnavigationevent
+	svgfeoffsetelement
+	childnode
+	clientrectlist
+	expandgranularity
+	svgfepointlightelement
+	svgfespecularlightingelement
+	svgfilterprimitivestandardattributes
+	svganimatedtransformlist
+	svgfecolormatrixelement
+	domsettabletokenlist
+	svgfedisplacementmapelement
+	svgtextelement
+	compositionevent
+	domtokenlist
+	svganimatedangle
+	svgurireference
+	textevent
+	svganimatedenumeration
+	svgfilterelement
+	svgpathsegarcabs
+	svgpathseglinetorel
+	svgzoomandpan
+	svgfemergenodeelement
+	svgpathseg
+	svganimatedinteger
+	domstringlist
+	svgpatternelement
+	svgnumberlist
+	svgpathsegcurvetocubicabs
+	svgpathsegcurvetocubicrel
+	svgpathsegcurvetoquadraticrel
+	mediaencryptedeventinit
+	svgtests
+	svgpathsegcurvetoquadraticabs
+	svgpathsegmovetoabs
+	listeningstate
+	svganimatedlength
+	svgpathseglinetohorizontalabs
+	longrunningscriptdetectedevent
+	svgpathseglinetohorizontalrel
+	svgfeblendelement
+	svgellipseelement
+	timeranges
+	mediaencryptedevent
+	svgpathseglist
+	svganimatedboolean
+	svglineelement
+	svgaelement
+	svgpathelement
+	svglengthlist
+	svgpointlist
+	svgpolylineelement
+	svganimatednumber
+	svgstopelement
+	domrectinit
+	svgfegaussianblurelement
+	svgpathsegmovetorel
+	svgrect
+	svgmarkerelement
+	svgpathseglinetoverticalrel
+	svgpathseglinetoabs
+	svgimageelement
+	svgmetadataelement
+	svgangle
+	svgfeconvolvematrixelement
+	svgnumber
+	svgpreserveaspectratio
+	svgunittypes
+	focusnavigationeventinit
+	svganimatedlengthlist
+	svgdefselement
+	svgfeimageelement
+	svgpathsegcurvetoquadraticsmoothabs
+	svgtransform
+	svgfefloodelement
+	domexception
+	svganimatedpreserveaspectratio
+	svgrectelement
+	svglength
+	doml2deprecatedsizeproperty
+	svganimatedpoints
+	svgtransformlist
+	svgscriptelement
+	svgviewelement
+	svgfemergeelement
+	svgfeturbulenceelement
+push:
+	pushencryptionkeyname
+	pushpermissionstate
+	pushsubscription
+	pushsubscriptionoptions
+	pushsubscriptionoptionsinit
+	pushmanager
+speech:
+	speechsynthesisvoice
+	speechsynthesiseventinit
+	speechsynthesisevent
+mutation:
+	mutationobserverinit
+	mutationrecord
+	mutationevent
+webkitfilecallback:
+	webkitfilecallback
+html:
+	htmlembedelement
+	htmlunknownelement
+	htmllegendelement
+	htmlsourceelement
+	htmlspanelement
+	htmltablealignment
+	htmlareaelement
+	htmldatalistelement
+	htmltrackelement
+	htmlhrelement
+	htmllinkelement
+	htmlpictureelement
+	htmlulistelement
+	htmlbasefontelement
+	htmlmapelement
+	htmlframesetelement
+	htmldlistelement
+	htmltabledatacellelement
+	htmltablesectionelement
+	htmlanchorelement
+	htmlbrelement
+	htmlprogresselement
+	htmltablecolelement
+	htmlbodyelement
+	htmldataelement
+	htmlpreelement
+	htmlinputelement
+	htmliframeelement
+	htmlmarqueeelement
+	htmloptgroupelement
+	htmloptionelement
+	htmlmeterelement
+	htmlmodelement
+	htmlobjectelement
+	htmloptionscollection
+	htmlparagraphelement
+	htmltableheadercellelement
+	htmldivelement
+	htmlolistelement
+	htmlformcontrolscollection
+	htmldirectoryelement
+	htmltimeelement
+	htmlmediaelement
+	htmlquoteelement
+	htmlbuttonelement
+	htmlfieldsetelement
+	htmlallcollection
+	htmlheadingelement
+	htmlmenuelement
+	htmlhtmlelement
+	htmlimageelement
+	htmloutputelement
+	htmlselectelement
+	htmltablecaptionelement
+	htmltitleelement
+	htmlvideoelement
+	htmlbaseelement
+	htmlfontelement
+	htmlappletelement
+	htmlcanvaselement
+	htmlscriptelement
+	htmlstyleelement
+	htmllabelelement
+	htmlparamelement
+	htmltablerowelement
+	htmllielement
+	htmlareascollection
+	htmldocument
+	htmlmetaelement
+	htmltableelement
+	htmlaudioelement
+	htmltemplateelement
+	htmlframeelement
+	htmltextareaelement
+channelmessage:
+	messagechannel
+animation:
+	animationevent
+	animationeventinit
+positioncallback:
+	positioncallback
+webkiterrorcallback:
+	webkiterrorcallback
+rtcrtpstreamstats:
+	rtcrtpstreamstats
+erroreventhandler:
+	erroreventhandler
+device:
+	devicerotationratedict
+	devicemotioneventinit
+	devicelighteventinit
+	devicerotationrate
+	deviceaccelerationdict
+	deviceorientationeventinit
+	deviceacceleration
+mscredentials:
+	mscredentials
+serviceworker:
+	registrationoptions
+	getnotificationoptions
+	syncmanager
+	serviceworkerstate
+intersectionobserverinit:
+	intersectionobserverinit
+mediaquery:
+	mediaquerylist
+	mediaquerylistlistener
+webkitfilesytem:
+	webkitentry
+	webkitdirectoryentry
+	webkitfilesystem
+subtlecrypto:
+	subtlecrypto
+decodesuccesscallback:
+	decodesuccesscallback
+navigation:
+	navigationreason
+	navigationcompletedevent
+	confirmsitespecificexceptionsinformation
+	focusnavigationorigin
+	navigationevent
+	navigationtype
+mediastreams:
+	mediatrackconstraintset
+	constraindoublerange
+	mediatrackcapabilities
+	mediastreamconstraints
+	mediastreamerror
+	mediatracksettings
+	constrainlongrange
+	mediatracksupportedconstraints
+	constrainbooleanparameters
+	mediastreamevent
+	mediatrackconstraints
+	constraindomstringparameters
+	mediastreamtrackstate
+	mediastreamerroreventinit
+	longrange
+	doublerange
+	videofacingmodeenum
+	constrainvideofacingmodeparameters
+webkitentriescallback:
+	webkitentriescallback
+rtcicecandidatepairchangedevent:
+	rtcicecandidatepairchangedevent
+htmltablecellelement:
+	htmltablecellelement
+file:
+	filelist
+	file
+	filereader
+performance:
+	performancemeasure
+	performance
+	performancenavigationtiming
+	performanceresourcetiming
+	performanceentry
+	performancenavigation
+	performancemark
+	performancetiming
+voidfunction:
+	voidfunction
+svgtextpositioningelement:
+	svgtextpositioningelement
+cache:
+	cachequeryoptions
+	cache
+	cachestorage
+fetch:
+	requestcredentials
+	headers
+	body
+	requestdestination
+	responseinit
+	requestinit
+	requestmode
+	responsetype
+	globalfetch
+	requesttype
+	requestredirect
+	referrerpolicy
+	requestcache
+indexdb:
+	idbindexparameters
+	idbcursordirection
+	idbtransactionmode
+	idbrequestreadystate
+	idbcursorwithvalue
+	idbobjectstoreparameters
+rtcrtpcapabilities:
+	rtcrtpcapabilities
+htmlformelement:
+	htmlformelement
+rtcicegatherer:
+	rtcicegatherer
+audioparam:
+	audioparam
+svgcomponenttransferfunctionelement:
+	svgcomponenttransferfunctionelement
+foreachcallback:
+	foreachcallback
+rtcicetransportstatechangedevent:
+	rtcicetransportstatechangedevent
+authentication:
+	scopedcredentialtype
+	webauthnextensions
+	webauthnassertion
+	scopedcredentialinfo
+	scopedcredentialdescriptor
+	scopedcredentialparameters
+	clientdata
+	assertionoptions
+	webauthentication
+	scopedcredential
+	account
+document:
+	visibilitystate
+	unviewablecontentidentifiedevent
+	scriptnotifyevent
+gamepadeventinit:
+	gamepadeventinit
+scopedcredentialoptions:
+	scopedcredentialoptions
+streams:
+	readablestreamreader
+	readablestream
+csskeyframerule:
+	csskeyframerule
+ms:
+	msicetype
+	msstreamreader
+	msiceaddrtype
+	mstransporttype
+	msblobbuilder
+	mswebviewpermissionstate
+	msjitter
+	msicewarningflags
+	mscredentialspec
+	mszoomtooptions
+	msipaddressinfo
+	msnetworkinterfacetype
+	msgesture
+	msaudiosendsignal
+	mswebviewsettings
+	msfilesaver
+	msstatstype
+	msassertion
+	msutilization
+	msaudiorecvsignal
+	mspacketloss
+	msmediakeys
+	msaudiolocalclientevent
+	mscredentialparameters
+	msnetworkconnectivityinfo
+	msfidosignature
+	msgraphicstrust
+	msvideoresolutiondistribution
+	mstransportdiagnosticsstats
+	msfidosignatureassertion
+	msrelayaddress
+	msaudiorecvpayload
+	msfidocredentialparameters
+	msbasereader
+	mscredentialtype
+	msdelay
+	msstream
+	mswebviewpermissiontype
+	msmediakeymessageevent
+	msaccountinfo
+	msvideopayload
+	msappasyncoperation
+	msportrange
+	msaudiosendpayload
+	msmediakeyerror
+	msvideosendpayload
+	extensionscriptapis
+	mssignatureparameters
+	msvideorecvpayload
+	msconnectivity
+	msfidocredentialassertion
+	msdescription
+	msapp
+	msnetwork
+	msoutboundnetwork
+eme:
+	mediakeystatusmap
+	mediakeysrequirement
+	mediakeystatus
+	mediakeysystemconfiguration
+	mediakeymessageevent
+	mediakeysessiontype
+	mediakeymessageeventinit
+	mediakeymessagetype
+	mediakeysystemmediacapability
+rtcpeerconnectionerrorcallback:
+	rtcpeerconnectionerrorcallback
+browser:
+	barprop
+xhr:
+	xmlhttprequesteventtarget
+	xmlhttprequestresponsetype
+	xmlhttprequest
+	formdata
+	xmlhttprequestupload
+	xmlserializer
+decodeerrorcallback:
+	decodeerrorcallback
+window:
+	uieventinit
+	mediastreamtrack
+	beforeunloadevent
+	history
+	namednodemap
+	wheelevent
+	navigatorstorageutils
+	popstateeventinit
+	idbversionchangeevent
+	treewalker
+	windowsessionstorage
+	cssrule
+	pointerevent
+	navigatorusermediasuccesscallback
+	uievent
+	navigatorusermedia
+	msmanipulationevent
+	comment
+	nodefilter
+	idbrequest
+	node
+	devicelightevent
+	eventtarget
+	focuseventinit
+	wheeleventinit
+	clipboardevent
+	elementtraversal
+	serviceworkermessageeventinit
+	csspagerule
+	popstateevent
+	keyboardeventinit
+	windowbase64
+	windowtimers
+	serviceworkerregistration
+	mediastreamtrackeventinit
+	nodelist
+	speechsynthesis
+	navigatorconcurrenthardware
+	processinginstruction
+	stylemedia
+	rng
+	globaleventhandlers
+	htmlcollection
+	applicationcache
+	external
+	navigatoronline
+	messageport
+	touchlist
+	speechsynthesisutterance
+	text
+	mediastreamerrorevent
+	navigator
+	storageevent
+	stylesheetpagelist
+	eventmodifierinit
+	hashchangeevent
+	idbdatabase
+	documentfragment
+	pointereventinit
+	msrangecollection
+	stylesheetlist
+	msgestureevent
+	screen
+	cdatasection
+	windowtimersextension
+	msinputmethodcontext
+	notification
+	documenttype
+	mspointerevent
+	navigatorbeacon
+	devicemotionevent
+	event
+	cssrulelist
+	domimplementation
+	svgelement
+	messageeventinit
+	idbobjectstore
+	touchevent
+	idbopendbrequest
+	documentevent
+	windowlocalstorage
+	htmlelement
+	svgsvgelement
+	characterdata
+	xpathresult
+	abstractworker
+	console
+	serviceworkermessageevent
+	xpathexpression
+	selection
+	mssitemodeevent
+	nodeiterator
+	idbfactory
+	windowconsole
+	mediakeysystemaccess
+	window
+	mouseeventinit
+	pagetransitionevent
+	progressevent
+	keyboardevent
+	idbindex
+	serviceworkercontainer
+	element
+	idbtransaction
+	mediakeys
+	serviceworker
+	svggraphicselement
+	document
+	mediadevices
+	navigatorid
+	navigatorgeolocation
+	cssstylesheet
+	mouseevent
+	touch
+	nodeselector
+	svgzoomevent
+	cssstyledeclaration
+	dragevent
+	htmlheadelement
+	navigatorcontentutils
+	mediastreamtrackevent
+	deviceorientationevent
+	mediastream
+	eventlistener
+	focusevent
+	attr
+	messageevent
+	mediakeysession
+	idbenvironment
+	stylesheet
+texttracklist:
+	texttracklist
+crypto:
+	algorithm
+	crypto
+	keyalgorithm
+	cryptokeypair
+	cryptokey
+	randomsource
+mswebviewelement:
+	mshtmlwebviewelement
+	mswebviewasyncoperation
+webrtc:
+	rtcrtpcodecparameters
+	rtcsdptype
+	rtcstats
+	rtctransportstats
+	rtcicecandidateinit
+	rtcsessiondescriptioninit
+	rtcicecandidatetype
+	rtcrtpcontributingsource
+	rtcrtpencodingparameters
+	rtcrtprtxparameters
+	rtcrtpcodeccapability
+	rtcicegatherpolicy
+	rtciceconnectionstate
+	rtcrtpreceiver
+	rtcrtpheaderextension
+	rtcicecandidatepairstats
+	rtcdegradationpreference
+	rtcssrcrange
+	rtcofferoptions
+	rtcicetcpcandidatetype
+	rtcstatsreport
+	rtcstatsicecandidatetype
+	rtcrtpunhandled
+	rtcmediastreamtrackstats
+	rtciceserver
+	rtcstatsprovider
+	rtcdtlstransport
+	rtcdtmftonechangeeventinit
+	rtcpeerconnectioniceeventinit
+	rtcicecandidatedictionary
+	rtcdtlsparameters
+	rtcbundlepolicy
+	rtcsessiondescription
+	rtcsignalingstate
+	rtcicecandidatecomplete
+	rtcicetransportpolicy
+	rtcconfiguration
+	rtcrtpparameters
+	rtcrtcpfeedback
+	rtcicegatheringstate
+	rtcicegathererevent
+	mediadeviceinfo
+	rtcdtmftonechangeevent
+	mediadevicekind
+	rtcicecandidate
+	rtcoutboundrtpstreamstats
+	rtcdtlstransportstate
+	rtcicerole
+	rtciceprotocol
+	rtcicegatheroptions
+	rtcstatsicecandidatepairstate
+	rtcicegathererstate
+	rtcrtcpparameters
+	rtcrtpheaderextensionparameters
+	rtcicecomponent
+	rtcicetransportstate
+	rtcstatstype
+	rtcrtpfecparameters
+	rtcssrcconflictevent
+	rtcdtmfsender
+	rtciceparameters
+	rtcsrtpsdestransport
+	rtcinboundrtpstreamstats
+	rtcicecandidateattributes
+	rtcdtlsrole
+	rtcsrtpsdesparameters
+	rtcpeerconnectioniceevent
+	rtcdtlsfingerprint
+	rtcsrtpkeyparam
+svggradientelement:
+	svggradientelement
+storage:
+	storage
+positionerrorcallback:
+	positionerrorcallback
+msexecatpriorityfunctioncallback:
+	msexecatpriorityfunctioncallback
+rtcdtlstransportstatechangedevent:
+	rtcdtlstransportstatechangedevent
+draganddrop:
+	datatransfer
+	datatransferitem
+	datatransferitemlist
+navigatorusermediaerrorcallback:
+	navigatorusermediaerrorcallback
+idbkeyrange:
+	idbkeyrange
+webkitcssmatrix:
+	webkitcssmatrix
+url:
+	url
+	objecturloptions
+	location
+rtcpeerconnection:
+	rtcpeerconnection
+mspayloadbase:
+	mspayloadbase
+msmediakeysession:
+	msmediakeysession
+canvas:
+	imagedata
+	canvaspathmethods
+	canvaspattern
+	canvasrenderingcontext2d
+	textmetrics
+	canvasgradient
+	canvasfillrule
+audio:
+	oscillatortype
+	offlineaudiocontext
+	biquadfiltertype
+	audiobuffer
+	audioprocessingevent
+	audiocontextstate
+	channelinterpretation
+	distancemodeltype
+	periodicwaveconstraints
+	oversampletype
+	panningmodeltype
+	periodicwave
+	channelcountmode
+	audiolistener
+	offlineaudiocompletionevent
+webgl:
+	oestexturefloat
+	webglcontextevent
+	webglactiveinfo
+	webgluniformlocation
+	extfragdepth
+	webglshader
+	webglshaderprecisionformat
+	webglcontextattributes
+	webglrenderingcontext
+	oestexturefloatlinear
+	angleinstancedarrays
+	webglprogram
+	oestexturehalffloatlinear
+	webglframebuffer
+	webglcompressedtextures3tc
+	webglrenderbuffer
+	exttexturefilteranisotropic
+	webglobject
+	oesstandardderivatives
+	oestexturehalffloat
+	webgldepthtexture
+	oeselementindexuint
+	webgldebugrendererinfo
+	webgltexture
+	webglcontexteventinit
+	webglbuffer
+msnavigatordonottrack:
+	msnavigatordonottrack
+navigationeventwithreferrer:
+	navigationeventwithreferrer
+websocket:
+	websocket
+	closeeventinit
+	closeevent

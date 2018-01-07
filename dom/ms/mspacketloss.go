@@ -1,6 +1,6 @@
 package ms
 
 type MSPacketLoss struct {
-	lossRate	*float32
-	lossRateMax	*float32
+	lossRate    *float32
+	lossRateMax *float32
 }

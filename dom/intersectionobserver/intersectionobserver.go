@@ -1,46 +1,64 @@
 package intersectionobserver
 
 import (
+	"github.com/matthewmueller/joy/dom/intersectionobserverentry"
+	"github.com/matthewmueller/joy/dom/intersectionobserverinit"
+	"github.com/matthewmueller/joy/dom/window"
 	"github.com/matthewmueller/joy/macro"
-	"github.com/matthewmueller/joy/dom/utils"
-	"github.com/matthewmueller/joy/dom/element"
 )
 
-func New(callback func(entries []*utils.IntersectionObserverEntry, observer *IntersectionObserver), options *IntersectionObserverInit) *IntersectionObserver {
+// New fn
+func New(callback func(entries []*intersectionobserverentry.IntersectionObserverEntry, observer *IntersectionObserver), options *intersectionobserverinit.IntersectionObserverInit) *IntersectionObserver {
 	macro.Rewrite("new IntersectionObserver($1, $2)", callback, options)
 	return &IntersectionObserver{}
 }
 
+// IntersectionObserver struct
+// js:"IntersectionObserver,omit"
 type IntersectionObserver struct {
 }
 
+// Disconnect fn
+// js:"disconnect"
 func (*IntersectionObserver) Disconnect() {
 	macro.Rewrite("$_.disconnect()")
 }
 
-func (*IntersectionObserver) Observe(target element.Element) {
+// Observe fn
+// js:"observe"
+func (*IntersectionObserver) Observe(target window.Element) {
 	macro.Rewrite("$_.observe($1)", target)
 }
 
-func (*IntersectionObserver) TakeRecords() (i []*utils.IntersectionObserverEntry) {
+// TakeRecords fn
+// js:"takeRecords"
+func (*IntersectionObserver) TakeRecords() (i []*intersectionobserverentry.IntersectionObserverEntry) {
 	macro.Rewrite("$_.takeRecords()")
 	return i
 }
 
-func (*IntersectionObserver) Unobserve(target element.Element) {
+// Unobserve fn
+// js:"unobserve"
+func (*IntersectionObserver) Unobserve(target window.Element) {
 	macro.Rewrite("$_.unobserve($1)", target)
 }
 
-func (*IntersectionObserver) Root() (root element.Element) {
+// Root prop
+// js:"root"
+func (*IntersectionObserver) Root() (root window.Element) {
 	macro.Rewrite("$_.root")
 	return root
 }
 
+// RootMargin prop
+// js:"rootMargin"
 func (*IntersectionObserver) RootMargin() (rootMargin string) {
 	macro.Rewrite("$_.rootMargin")
 	return rootMargin
 }
 
+// Thresholds prop
+// js:"thresholds"
 func (*IntersectionObserver) Thresholds() (thresholds []float32) {
 	macro.Rewrite("$_.thresholds")
 	return thresholds

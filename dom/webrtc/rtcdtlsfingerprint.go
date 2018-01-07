@@ -1,6 +1,6 @@
 package webrtc
 
 type RTCDtlsFingerprint struct {
-	algorithm	*string
-	value		*string
+	algorithm *string
+	value     *string
 }
